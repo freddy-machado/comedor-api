@@ -1,0 +1,12 @@
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\bin\Debug\net9.0\Comedor.Core.deps.json
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\bin\Debug\net9.0\Comedor.Core.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\bin\Debug\net9.0\Comedor.Core.pdb
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.csproj.AssemblyReference.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.AssemblyInfoInputs.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.AssemblyInfo.cs
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.csproj.CoreCompileInputs.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\refint\Comedor.Core.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.pdb
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\ref\Comedor.Core.dll

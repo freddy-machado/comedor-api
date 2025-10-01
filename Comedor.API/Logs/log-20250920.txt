@@ -1,0 +1,6 @@
+2025-09-20 10:10:02.872 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1105 ms
+2025-09-20 10:10:02.900 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-20 10:10:02.944 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-20 10:10:03.017 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-20 10:10:03.019 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 124.3169 ms
+2025-09-20 16:43:42.582 -06:00 [INF] Starting web host

@@ -1,0 +1,17 @@
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Infrastructure.deps.json
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Infrastructure.runtimeconfig.json
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Infrastructure.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Infrastructure.pdb
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Core.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\bin\Debug\net9.0\Comedor.Core.pdb
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.csproj.AssemblyReference.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.AssemblyInfoInputs.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.AssemblyInfo.cs
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.csproj.CoreCompileInputs.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor..BE5F968D.Up2Date
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\refint\Comedor.Infrastructure.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.pdb
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.genruntimeconfig.cache
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\ref\Comedor.Infrastructure.dll

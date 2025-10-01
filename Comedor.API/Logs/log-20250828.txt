@@ -1,0 +1,403 @@
+2025-08-28 09:39:18.864 -06:00 [INF] HTTP GET /api/Despachos responded 401 in 76.8483 ms
+2025-08-28 09:39:51.738 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 1.2993 ms
+2025-08-28 09:39:53.513 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0292 ms
+2025-08-28 09:39:53.519 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4340 ms
+2025-08-28 09:39:56.578 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 2987.1346 ms
+2025-08-28 09:39:57.499 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 0.1599 ms
+2025-08-28 09:39:58.657 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0256 ms
+2025-08-28 09:39:58.662 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3356 ms
+2025-08-28 09:40:04.327 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 5646.8705 ms
+2025-08-28 09:40:06.156 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0294 ms
+2025-08-28 09:40:06.163 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 09:40:06.226 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 09:40:06.299 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 09:40:06.301 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 140.0788 ms
+2025-08-28 09:40:13.585 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0206 ms
+2025-08-28 09:40:13.606 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 15.1095 ms
+2025-08-28 09:40:24.390 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0286 ms
+2025-08-28 09:40:24.402 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.8468 ms
+2025-08-28 09:40:24.434 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0282 ms
+2025-08-28 09:40:24.438 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1420 ms
+2025-08-28 09:40:25.685 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0224 ms
+2025-08-28 09:40:25.692 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1242.3714 ms
+2025-08-28 09:40:25.701 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 9.6413 ms
+2025-08-28 09:45:50.691 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0227 ms
+2025-08-28 09:45:50.720 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 17.2045 ms
+2025-08-28 09:45:50.812 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0227 ms
+2025-08-28 09:45:50.823 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 4.2071 ms
+2025-08-28 09:45:50.846 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0180 ms
+2025-08-28 09:45:50.865 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 14.8621 ms
+2025-08-28 09:45:54.965 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0263 ms
+2025-08-28 09:45:54.978 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.8441 ms
+2025-08-28 09:45:56.149 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0283 ms
+2025-08-28 09:45:56.157 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.9707 ms
+2025-08-28 09:45:56.189 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0327 ms
+2025-08-28 09:45:56.196 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.3263 ms
+2025-08-28 09:45:56.204 -06:00 [INF] HTTP OPTIONS /api/Despachos/1015 responded 204 in 0.0219 ms
+2025-08-28 09:45:56.211 -06:00 [INF] HTTP GET /api/Despachos/1015 responded 200 in 2.6263 ms
+2025-08-28 09:46:04.269 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0204 ms
+2025-08-28 09:46:04.280 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.5515 ms
+2025-08-28 10:08:40.784 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0368 ms
+2025-08-28 10:08:40.817 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 20.7184 ms
+2025-08-28 10:08:40.835 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0273 ms
+2025-08-28 10:08:40.845 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.7142 ms
+2025-08-28 10:08:40.854 -06:00 [INF] HTTP OPTIONS /api/Despachos/1009 responded 204 in 0.0254 ms
+2025-08-28 10:08:40.864 -06:00 [INF] HTTP GET /api/Despachos/1009 responded 200 in 3.3812 ms
+2025-08-28 10:08:58.200 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0363 ms
+2025-08-28 10:08:58.212 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.1042 ms
+2025-08-28 10:09:07.100 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0174 ms
+2025-08-28 10:09:07.109 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.7515 ms
+2025-08-28 10:09:07.144 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0383 ms
+2025-08-28 10:09:07.152 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.0305 ms
+2025-08-28 10:09:07.158 -06:00 [INF] HTTP OPTIONS /api/Despachos/1 responded 204 in 0.0287 ms
+2025-08-28 10:09:07.169 -06:00 [INF] HTTP GET /api/Despachos/1 responded 200 in 4.4798 ms
+2025-08-28 10:10:47.361 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0239 ms
+2025-08-28 10:10:47.384 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 5.9764 ms
+2025-08-28 10:10:58.525 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0243 ms
+2025-08-28 10:10:58.534 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 3.7519 ms
+2025-08-28 10:10:58.582 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0346 ms
+2025-08-28 10:10:58.593 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.4696 ms
+2025-08-28 10:11:09.086 -06:00 [INF] HTTP OPTIONS /api/Despachos/1 responded 204 in 0.1438 ms
+2025-08-28 10:11:09.095 -06:00 [INF] HTTP GET /api/Despachos/1 responded 200 in 3.3583 ms
+2025-08-28 10:13:23.406 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0294 ms
+2025-08-28 10:13:23.424 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.9745 ms
+2025-08-28 10:13:27.960 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0217 ms
+2025-08-28 10:13:27.971 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 4.5723 ms
+2025-08-28 10:13:27.986 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0253 ms
+2025-08-28 10:13:27.992 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3153 ms
+2025-08-28 10:13:29.335 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0328 ms
+2025-08-28 10:13:29.344 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.6981 ms
+2025-08-28 10:13:29.349 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1344.1950 ms
+2025-08-28 10:13:32.105 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0207 ms
+2025-08-28 10:13:32.114 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.5244 ms
+2025-08-28 10:13:32.155 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0303 ms
+2025-08-28 10:13:32.163 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.4322 ms
+2025-08-28 10:13:36.638 -06:00 [INF] HTTP OPTIONS /api/Despachos/1009 responded 204 in 0.0263 ms
+2025-08-28 10:13:36.647 -06:00 [INF] HTTP GET /api/Despachos/1009 responded 200 in 4.3880 ms
+2025-08-28 11:03:53.125 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0268 ms
+2025-08-28 11:03:53.135 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 11:03:53.150 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 11:03:53.215 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 11:03:53.218 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 83.7691 ms
+2025-08-28 11:03:54.404 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0284 ms
+2025-08-28 11:03:54.416 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.2705 ms
+2025-08-28 11:03:56.192 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0175 ms
+2025-08-28 11:03:56.199 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.3027 ms
+2025-08-28 11:03:56.413 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0187 ms
+2025-08-28 11:03:56.421 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.7980 ms
+2025-08-28 11:03:56.442 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0252 ms
+2025-08-28 11:03:56.452 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 3.2217 ms
+2025-08-28 11:11:09.266 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 41.8353 ms
+2025-08-28 11:11:09.413 -06:00 [INF] HTTP GET /api/Comensales responded 401 in 0.1581 ms
+2025-08-28 11:18:52.353 -06:00 [INF] HTTP GET /api/Despachos/2 responded 401 in 0.1957 ms
+2025-08-28 11:20:09.563 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0214 ms
+2025-08-28 11:20:09.574 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 11:20:09.589 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 11:20:09.657 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 11:20:09.659 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 86.1126 ms
+2025-08-28 11:20:13.979 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0271 ms
+2025-08-28 11:20:14.000 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 12.1071 ms
+2025-08-28 11:20:15.578 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0381 ms
+2025-08-28 11:20:15.587 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.3339 ms
+2025-08-28 11:20:15.649 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0185 ms
+2025-08-28 11:20:15.659 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.6160 ms
+2025-08-28 11:20:15.686 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0221 ms
+2025-08-28 11:20:15.695 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 3.0768 ms
+2025-08-28 11:20:21.172 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0188 ms
+2025-08-28 11:20:21.183 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.7954 ms
+2025-08-28 11:20:22.952 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0312 ms
+2025-08-28 11:20:22.959 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.3129 ms
+2025-08-28 11:20:22.973 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0231 ms
+2025-08-28 11:20:22.978 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.4316 ms
+2025-08-28 11:20:32.099 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0229 ms
+2025-08-28 11:20:32.196 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 89.9540 ms
+2025-08-28 11:20:33.520 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.8041 ms
+2025-08-28 11:20:40.395 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0244 ms
+2025-08-28 11:20:40.404 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.9271 ms
+2025-08-28 11:20:40.422 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0212 ms
+2025-08-28 11:20:40.429 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.6535 ms
+2025-08-28 11:20:40.439 -06:00 [INF] HTTP OPTIONS /api/Despachos/1020 responded 204 in 0.0229 ms
+2025-08-28 11:20:40.447 -06:00 [INF] HTTP GET /api/Despachos/1020 responded 200 in 2.2179 ms
+2025-08-28 11:20:46.496 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0218 ms
+2025-08-28 11:20:46.506 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.0494 ms
+2025-08-28 11:28:39.732 -06:00 [INF] HTTP GET /api/Despachos responded 401 in 0.7731 ms
+2025-08-28 11:45:50.427 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0260 ms
+2025-08-28 11:45:50.440 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 11:45:50.458 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 11:45:50.527 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 11:45:50.528 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 89.3147 ms
+2025-08-28 11:45:52.309 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0175 ms
+2025-08-28 11:45:52.321 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.8750 ms
+2025-08-28 11:45:53.741 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0167 ms
+2025-08-28 11:45:53.747 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.5938 ms
+2025-08-28 11:45:53.798 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0278 ms
+2025-08-28 11:45:53.806 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.9413 ms
+2025-08-28 11:45:53.828 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0343 ms
+2025-08-28 11:45:53.839 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 6.5948 ms
+2025-08-28 11:45:57.438 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0243 ms
+2025-08-28 11:45:57.446 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.0393 ms
+2025-08-28 11:45:58.978 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0246 ms
+2025-08-28 11:45:58.985 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.7178 ms
+2025-08-28 11:45:59.001 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0334 ms
+2025-08-28 11:45:59.007 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.4034 ms
+2025-08-28 11:46:22.395 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0375 ms
+2025-08-28 11:46:22.423 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 18.5634 ms
+2025-08-28 11:46:23.634 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 1.7701 ms
+2025-08-28 11:46:28.311 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0190 ms
+2025-08-28 11:46:28.317 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.3115 ms
+2025-08-28 11:46:28.332 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0185 ms
+2025-08-28 11:46:28.337 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.4447 ms
+2025-08-28 11:46:28.345 -06:00 [INF] HTTP OPTIONS /api/Despachos/1021 responded 204 in 0.0205 ms
+2025-08-28 11:46:28.352 -06:00 [INF] HTTP GET /api/Despachos/1021 responded 200 in 2.3236 ms
+2025-08-28 11:46:31.049 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0292 ms
+2025-08-28 11:46:31.056 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.2818 ms
+2025-08-28 12:27:45.037 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.2827 ms
+2025-08-28 12:27:45.052 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 12:27:45.093 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 12:27:45.162 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 12:27:45.164 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 114.4462 ms
+2025-08-28 12:33:44.287 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0298 ms
+2025-08-28 12:33:44.304 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 12:33:44.309 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 12:33:44.408 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 12:33:44.410 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 106.7897 ms
+2025-08-28 12:34:05.314 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0394 ms
+2025-08-28 12:34:05.337 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 10.0015 ms
+2025-08-28 12:34:05.492 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0428 ms
+2025-08-28 12:34:05.498 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3843 ms
+2025-08-28 12:34:07.305 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0224 ms
+2025-08-28 12:34:07.319 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.0577 ms
+2025-08-28 12:34:07.347 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1791.0743 ms
+2025-08-28 12:34:10.065 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0282 ms
+2025-08-28 12:34:10.075 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 3.2828 ms
+2025-08-28 12:34:10.133 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0211 ms
+2025-08-28 12:34:10.146 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.7743 ms
+2025-08-28 12:34:10.179 -06:00 [INF] HTTP OPTIONS /api/Despachos/1009 responded 204 in 0.0295 ms
+2025-08-28 12:34:10.189 -06:00 [INF] HTTP GET /api/Despachos/1009 responded 200 in 4.3200 ms
+2025-08-28 12:34:11.973 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.2304 ms
+2025-08-28 12:44:13.427 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0355 ms
+2025-08-28 12:44:13.435 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 12:44:13.459 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 12:44:13.546 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 12:44:13.547 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 113.4039 ms
+2025-08-28 12:44:27.419 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0266 ms
+2025-08-28 12:44:27.425 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 12:44:27.429 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 12:44:27.504 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 12:44:27.506 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 81.6515 ms
+2025-08-28 13:45:26.916 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0243 ms
+2025-08-28 13:45:26.922 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 13:45:26.942 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 13:45:27.019 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 13:45:27.021 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 99.9211 ms
+2025-08-28 13:45:42.559 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0395 ms
+2025-08-28 13:45:42.571 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.7797 ms
+2025-08-28 13:45:42.742 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0232 ms
+2025-08-28 13:45:42.747 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3149 ms
+2025-08-28 13:46:02.939 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0195 ms
+2025-08-28 13:46:02.949 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.8139 ms
+2025-08-28 13:46:02.978 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 20185.9851 ms
+2025-08-28 13:46:06.362 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0222 ms
+2025-08-28 13:46:06.371 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.3722 ms
+2025-08-28 13:46:06.439 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0197 ms
+2025-08-28 13:46:06.449 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.3308 ms
+2025-08-28 13:46:06.483 -06:00 [INF] HTTP OPTIONS /api/Despachos/1 responded 204 in 0.0224 ms
+2025-08-28 13:46:06.492 -06:00 [INF] HTTP GET /api/Despachos/1 responded 200 in 2.5187 ms
+2025-08-28 13:46:09.612 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0251 ms
+2025-08-28 13:46:09.621 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.6021 ms
+2025-08-28 13:46:11.881 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0252 ms
+2025-08-28 13:46:11.889 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.4466 ms
+2025-08-28 13:46:11.905 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0180 ms
+2025-08-28 13:46:11.910 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.1845 ms
+2025-08-28 13:46:11.915 -06:00 [INF] HTTP OPTIONS /api/Despachos/1015 responded 204 in 0.0192 ms
+2025-08-28 13:46:11.921 -06:00 [INF] HTTP GET /api/Despachos/1015 responded 200 in 1.6484 ms
+2025-08-28 13:46:17.734 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0305 ms
+2025-08-28 13:46:17.750 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 9.4498 ms
+2025-08-28 13:54:29.300 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0270 ms
+2025-08-28 13:54:29.331 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 18.9335 ms
+2025-08-28 13:54:29.345 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0252 ms
+2025-08-28 13:54:29.351 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1604 ms
+2025-08-28 13:54:30.226 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 864.4867 ms
+2025-08-28 13:56:31.470 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0247 ms
+2025-08-28 13:56:31.484 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 13:56:31.489 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 13:56:31.571 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 13:56:31.573 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 89.8910 ms
+2025-08-28 14:00:45.819 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0312 ms
+2025-08-28 14:00:45.829 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 14:00:45.846 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 14:00:45.921 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 14:00:45.924 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 95.0710 ms
+2025-08-28 14:30:28.201 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 0.4582 ms
+2025-08-28 14:30:30.026 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0349 ms
+2025-08-28 14:30:30.034 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 1.1047 ms
+2025-08-28 14:30:31.472 -06:00 [INF] HTTP GET /api/Despachos responded 401 in 0.0873 ms
+2025-08-28 14:30:31.650 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1545.5216 ms
+2025-08-28 14:30:33.131 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 0.1843 ms
+2025-08-28 14:30:34.381 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2158 ms
+2025-08-28 14:30:35.946 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1553.8215 ms
+2025-08-28 14:30:37.389 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0259 ms
+2025-08-28 14:30:37.395 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 14:30:37.418 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 14:30:37.528 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 14:30:37.530 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 135.3756 ms
+2025-08-28 14:30:40.180 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0316 ms
+2025-08-28 14:30:40.192 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.7403 ms
+2025-08-28 14:30:40.356 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0269 ms
+2025-08-28 14:30:40.362 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1610 ms
+2025-08-28 14:30:41.590 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0211 ms
+2025-08-28 14:30:41.598 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1224.1247 ms
+2025-08-28 14:30:41.602 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.3009 ms
+2025-08-28 14:30:46.593 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0227 ms
+2025-08-28 14:30:46.601 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.6331 ms
+2025-08-28 14:30:46.617 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0313 ms
+2025-08-28 14:30:46.624 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3356 ms
+2025-08-28 14:30:48.373 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0190 ms
+2025-08-28 14:30:48.379 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1743.9520 ms
+2025-08-28 14:30:48.381 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.9887 ms
+2025-08-28 14:36:54.280 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0347 ms
+2025-08-28 14:36:54.290 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 14:36:54.305 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 14:36:54.372 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 14:36:54.374 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 84.5131 ms
+2025-08-28 14:36:57.716 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0222 ms
+2025-08-28 14:36:57.728 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.5311 ms
+2025-08-28 14:36:57.742 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0299 ms
+2025-08-28 14:36:57.748 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1548 ms
+2025-08-28 14:36:58.850 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0183 ms
+2025-08-28 14:36:58.859 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1101.1585 ms
+2025-08-28 14:36:58.865 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 9.7941 ms
+2025-08-28 14:37:01.359 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0203 ms
+2025-08-28 14:37:01.367 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.9320 ms
+2025-08-28 14:37:01.674 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0201 ms
+2025-08-28 14:37:01.681 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.0014 ms
+2025-08-28 14:37:01.819 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0286 ms
+2025-08-28 14:37:01.829 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 3.2535 ms
+2025-08-28 14:37:03.281 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.2005 ms
+2025-08-28 16:17:36.656 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0921 ms
+2025-08-28 16:17:36.668 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 16:17:36.687 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 16:17:36.757 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 16:17:36.759 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 92.8598 ms
+2025-08-28 16:17:42.666 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0217 ms
+2025-08-28 16:17:42.680 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 7.6569 ms
+2025-08-28 16:17:42.828 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0274 ms
+2025-08-28 16:17:42.835 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.8008 ms
+2025-08-28 16:17:44.111 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1233.3794 ms
+2025-08-28 16:17:46.123 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0220 ms
+2025-08-28 16:17:46.135 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.0410 ms
+2025-08-28 16:17:47.160 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 1.8202 ms
+2025-08-28 16:17:47.174 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1789 ms
+2025-08-28 16:17:47.742 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 557.6446 ms
+2025-08-28 16:17:53.034 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0249 ms
+2025-08-28 16:17:53.042 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 16:17:53.045 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 16:17:53.127 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 16:17:53.130 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 89.3698 ms
+2025-08-28 16:17:57.172 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0242 ms
+2025-08-28 16:17:57.184 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.9428 ms
+2025-08-28 16:17:57.201 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0287 ms
+2025-08-28 16:17:57.206 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2218 ms
+2025-08-28 16:18:00.337 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0178 ms
+2025-08-28 16:18:00.343 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 3125.9509 ms
+2025-08-28 16:18:00.351 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.5620 ms
+2025-08-28 19:46:12.199 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0302 ms
+2025-08-28 19:46:12.214 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 19:46:12.256 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 19:46:12.368 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 19:46:12.370 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 157.3644 ms
+2025-08-28 19:46:16.499 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0331 ms
+2025-08-28 19:46:16.525 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 13.4853 ms
+2025-08-28 19:51:42.665 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0301 ms
+2025-08-28 19:51:42.682 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.6060 ms
+2025-08-28 19:51:42.816 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0233 ms
+2025-08-28 19:51:42.823 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.8331 ms
+2025-08-28 20:05:08.375 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0338 ms
+2025-08-28 20:05:08.401 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 805534.1140 ms
+2025-08-28 20:05:08.418 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 30.3895 ms
+2025-08-28 21:02:08.310 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0432 ms
+2025-08-28 21:02:08.337 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 11.2199 ms
+2025-08-28 21:02:09.618 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0348 ms
+2025-08-28 21:02:09.624 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1758 ms
+2025-08-28 21:02:11.078 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1441.0242 ms
+2025-08-28 21:02:12.244 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0228 ms
+2025-08-28 21:02:12.250 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 21:02:12.268 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 21:02:12.346 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 21:02:12.349 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 99.5611 ms
+2025-08-28 21:02:21.653 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0243 ms
+2025-08-28 21:02:21.665 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.9102 ms
+2025-08-28 21:02:21.681 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0299 ms
+2025-08-28 21:02:21.688 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1266 ms
+2025-08-28 21:02:26.385 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0261 ms
+2025-08-28 21:02:26.391 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 4695.1280 ms
+2025-08-28 21:02:26.397 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.2335 ms
+2025-08-28 21:02:29.064 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0202 ms
+2025-08-28 21:02:29.080 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.8583 ms
+2025-08-28 21:02:29.122 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0309 ms
+2025-08-28 21:02:29.131 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.1458 ms
+2025-08-28 21:02:29.153 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0256 ms
+2025-08-28 21:02:29.162 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 2.9098 ms
+2025-08-28 21:02:30.630 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.0544 ms
+2025-08-28 21:17:42.129 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0259 ms
+2025-08-28 21:17:42.142 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 21:17:42.169 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 21:17:42.238 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 21:17:42.241 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 101.4272 ms
+2025-08-28 21:17:54.039 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0232 ms
+2025-08-28 21:17:54.076 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 23.3011 ms
+2025-08-28 21:17:57.990 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0258 ms
+2025-08-28 21:17:58.003 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.4590 ms
+2025-08-28 21:17:58.024 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0346 ms
+2025-08-28 21:17:58.031 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2070 ms
+2025-08-28 21:18:04.504 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0209 ms
+2025-08-28 21:18:04.525 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 15.5498 ms
+2025-08-28 21:18:05.542 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0199 ms
+2025-08-28 21:18:05.549 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 1.9121 ms
+2025-08-28 21:18:07.461 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0201 ms
+2025-08-28 21:18:07.470 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.4641 ms
+2025-08-28 21:18:07.473 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 9428.2060 ms
+2025-08-28 21:18:13.496 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0295 ms
+2025-08-28 21:18:13.505 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.4995 ms
+2025-08-28 21:18:13.525 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0281 ms
+2025-08-28 21:18:13.535 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.5888 ms
+2025-08-28 21:18:13.546 -06:00 [INF] HTTP OPTIONS /api/Despachos/1016 responded 204 in 0.0334 ms
+2025-08-28 21:18:13.556 -06:00 [INF] HTTP GET /api/Despachos/1016 responded 200 in 2.2756 ms
+2025-08-28 21:18:16.037 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0269 ms
+2025-08-28 21:18:16.045 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 1.9357 ms
+2025-08-28 21:18:18.391 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.3152 ms
+2025-08-28 21:18:18.416 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.6392 ms
+2025-08-28 21:18:29.185 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0297 ms
+2025-08-28 21:18:29.205 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 13.8099 ms
+2025-08-28 21:18:30.340 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 1.9812 ms
+2025-08-28 21:19:33.791 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0277 ms
+2025-08-28 21:19:33.804 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-28 21:19:33.809 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-28 21:19:33.875 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-28 21:19:33.877 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 74.6751 ms
+2025-08-28 21:19:38.679 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0206 ms
+2025-08-28 21:19:38.689 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 4.2560 ms
+2025-08-28 21:19:38.704 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0210 ms
+2025-08-28 21:19:38.709 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1274 ms
+2025-08-28 21:19:42.712 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0218 ms
+2025-08-28 21:19:42.734 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 16.7096 ms
+2025-08-28 21:19:44.889 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0306 ms
+2025-08-28 21:19:44.895 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 1.4241 ms
+2025-08-28 21:19:46.896 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0245 ms
+2025-08-28 21:19:46.909 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 8188.1138 ms
+2025-08-28 21:19:46.918 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 14.9992 ms
+2025-08-28 21:19:49.955 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0322 ms
+2025-08-28 21:19:49.963 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.4446 ms
+2025-08-28 21:19:49.979 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0368 ms
+2025-08-28 21:19:49.988 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.2706 ms
+2025-08-28 21:19:49.997 -06:00 [INF] HTTP OPTIONS /api/Despachos/2 responded 204 in 0.0196 ms
+2025-08-28 21:19:50.007 -06:00 [INF] HTTP GET /api/Despachos/2 responded 200 in 4.1990 ms
+2025-08-28 21:19:52.842 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0261 ms
+2025-08-28 21:19:52.852 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.2423 ms
+2025-08-28 21:19:54.979 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0188 ms
+2025-08-28 21:19:54.988 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.2162 ms
+2025-08-28 21:19:54.999 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0286 ms
+2025-08-28 21:19:55.007 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1.8205 ms
+2025-08-28 21:20:05.831 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0323 ms
+2025-08-28 21:20:05.856 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 19.2019 ms
+2025-08-28 21:20:07.083 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 14.4414 ms

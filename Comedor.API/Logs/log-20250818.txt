@@ -1,0 +1,97 @@
+2025-08-18 12:44:08.482 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 9.1769 ms
+2025-08-18 12:44:08.649 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 114.1544 ms
+2025-08-18 12:44:11.776 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 3065.3881 ms
+2025-08-18 12:44:12.924 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 3.8196 ms
+2025-08-18 12:44:22.682 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.1670 ms
+2025-08-18 12:44:22.691 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3444 ms
+2025-08-18 13:05:42.611 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1289686.5022 ms
+2025-08-18 13:05:45.990 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1283002.5144 ms
+2025-08-18 13:16:29.180 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0757 ms
+2025-08-18 13:16:29.750 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 13:16:30.718 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-08-18 13:16:32.226 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 13:16:32.498 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 13:16:32.531 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3315.0190 ms
+2025-08-18 13:19:06.826 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.4184 ms
+2025-08-18 13:19:06.840 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3792 ms
+2025-08-18 13:19:37.600 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.1086 ms
+2025-08-18 13:19:38.616 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 1004.9286 ms
+2025-08-18 13:20:14.170 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 67281.9874 ms
+2025-08-18 14:09:30.036 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0923 ms
+2025-08-18 14:09:30.055 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3624 ms
+2025-08-18 14:09:40.559 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 10430.4203 ms
+2025-08-18 14:09:48.773 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0694 ms
+2025-08-18 14:09:48.780 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3808 ms
+2025-08-18 14:12:26.282 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 401 in 11.9871 ms
+2025-08-18 14:13:24.344 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 215476.4469 ms
+2025-08-18 14:13:51.287 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0653 ms
+2025-08-18 14:13:51.309 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 14:13:51.350 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 14:13:51.447 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 14:13:51.450 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 155.6190 ms
+2025-08-18 14:14:06.124 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.1878 ms
+2025-08-18 14:14:06.130 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1855 ms
+2025-08-18 14:14:36.941 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0472 ms
+2025-08-18 14:14:36.965 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 18.0266 ms
+2025-08-18 15:40:27.775 -06:00 [INF] Starting web host
+2025-08-18 15:50:23.963 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 2.2581 ms
+2025-08-18 15:50:24.376 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 15:50:24.969 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-08-18 15:50:25.935 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 15:50:26.125 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 15:50:26.149 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2169.4483 ms
+2025-08-18 15:50:45.590 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 1.4438 ms
+2025-08-18 15:51:34.148 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.4323 ms
+2025-08-18 15:51:34.659 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 496.8796 ms
+2025-08-18 15:54:25.097 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.1315 ms
+2025-08-18 15:54:43.680 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0692 ms
+2025-08-18 15:54:43.697 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 8.0716 ms
+2025-08-18 15:54:45.105 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1363.2904 ms
+2025-08-18 15:57:23.371 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1237 ms
+2025-08-18 15:57:23.411 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 15:57:23.438 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 15:57:23.509 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 15:57:23.511 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 131.3052 ms
+2025-08-18 15:57:45.138 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.1134 ms
+2025-08-18 15:57:47.004 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0516 ms
+2025-08-18 15:57:47.011 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4690 ms
+2025-08-18 15:57:59.139 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0559 ms
+2025-08-18 15:57:59.170 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 25.0785 ms
+2025-08-18 16:09:57.289 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 730242.9578 ms
+2025-08-18 20:05:23.101 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.4223 ms
+2025-08-18 20:05:24.942 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.2234 ms
+2025-08-18 20:05:24.948 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4338 ms
+2025-08-18 20:07:18.269 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 113259.2101 ms
+2025-08-18 20:07:19.451 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.0932 ms
+2025-08-18 20:07:24.371 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.4328 ms
+2025-08-18 20:07:24.378 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4277 ms
+2025-08-18 20:18:09.945 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 645555.3456 ms
+2025-08-18 20:43:56.456 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1009 ms
+2025-08-18 20:43:56.479 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 20:43:56.506 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 20:43:56.594 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 20:43:56.597 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 130.7894 ms
+2025-08-18 20:44:31.231 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.2039 ms
+2025-08-18 20:44:33.159 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0462 ms
+2025-08-18 20:44:33.166 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3814 ms
+2025-08-18 20:44:39.026 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0642 ms
+2025-08-18 20:44:39.055 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 22.5017 ms
+2025-08-18 20:49:01.389 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 268156.9234 ms
+2025-08-18 21:13:25.297 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.1678 ms
+2025-08-18 21:13:27.523 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0540 ms
+2025-08-18 21:13:27.531 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3222 ms
+2025-08-18 21:13:28.622 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1025.1984 ms
+2025-08-18 21:15:01.672 -06:00 [INF] HTTP GET /api/Despacho/pendientes responded 404 in 0.2020 ms
+2025-08-18 21:15:02.972 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0492 ms
+2025-08-18 21:15:02.978 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2536 ms
+2025-08-18 21:15:03.871 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 875.3982 ms
+2025-08-18 21:38:04.267 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 52.2535 ms
+2025-08-18 21:38:04.281 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 21:38:04.319 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 21:38:04.414 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 21:38:04.417 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 138.6570 ms
+2025-08-18 21:41:53.562 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0579 ms
+2025-08-18 21:41:53.577 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-18 21:41:53.584 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-18 21:41:53.661 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-18 21:41:53.663 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 87.1713 ms

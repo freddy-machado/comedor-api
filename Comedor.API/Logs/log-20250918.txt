@@ -1,0 +1,389 @@
+2025-09-18 14:36:51.031 -06:00 [INF] Starting web host
+2025-09-18 14:38:17.152 -06:00 [INF] HTTP GET /api/Despachos responded 401 in 102.9389 ms
+2025-09-18 14:38:26.428 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 4.7471 ms
+2025-09-18 14:38:27.865 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 1.6679 ms
+2025-09-18 14:38:27.885 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 13.0022 ms
+2025-09-18 14:38:29.626 -06:00 [INF] HTTP GET /api/Despachos responded 401 in 1.6375 ms
+2025-09-18 14:38:29.653 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1723.9417 ms
+2025-09-18 14:38:30.095 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 0.2723 ms
+2025-09-18 14:38:31.346 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.7168 ms
+2025-09-18 14:38:33.009 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1649.8643 ms
+2025-09-18 14:38:39.673 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1117 ms
+2025-09-18 14:38:40.119 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 14:38:40.860 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-09-18 14:38:42.027 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 14:38:42.205 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 14:38:42.228 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2547.5534 ms
+2025-09-18 14:38:45.339 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.3080 ms
+2025-09-18 14:38:45.656 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 308.7496 ms
+2025-09-18 14:38:46.960 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.1279 ms
+2025-09-18 14:38:47.012 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 39.5941 ms
+2025-09-18 14:38:47.042 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0587 ms
+2025-09-18 14:38:47.048 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1973 ms
+2025-09-18 14:38:48.184 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1123.8490 ms
+2025-09-18 14:39:58.342 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0851 ms
+2025-09-18 14:40:01.540 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 2987.2449 ms
+2025-09-18 14:40:10.957 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0677 ms
+2025-09-18 14:40:10.983 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 17.9374 ms
+2025-09-18 14:40:11.001 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0668 ms
+2025-09-18 14:40:11.007 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3001 ms
+2025-09-18 14:41:50.894 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.1054 ms
+2025-09-18 14:41:50.920 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 99900.2904 ms
+2025-09-18 14:41:50.926 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 8.0050 ms
+2025-09-18 14:42:06.555 -06:00 [INF] HTTP OPTIONS /api/Despachos/1028 responded 204 in 0.0504 ms
+2025-09-18 14:42:06.603 -06:00 [INF] HTTP DELETE /api/Despachos/1028 responded 204 in 42.1818 ms
+2025-09-18 14:42:07.514 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.2536 ms
+2025-09-18 14:42:07.531 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 10.1658 ms
+2025-09-18 14:42:10.043 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0773 ms
+2025-09-18 14:42:10.054 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 4.9871 ms
+2025-09-18 14:42:10.067 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0512 ms
+2025-09-18 14:42:10.073 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1910 ms
+2025-09-18 14:42:11.869 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1781.9811 ms
+2025-09-18 20:00:03.961 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1698 ms
+2025-09-18 20:00:04.037 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:00:04.064 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:00:04.170 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:00:04.172 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 205.3335 ms
+2025-09-18 20:17:35.439 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0852 ms
+2025-09-18 20:17:35.459 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:17:35.480 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:17:35.549 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:17:35.551 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 98.3078 ms
+2025-09-18 20:19:21.128 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0576 ms
+2025-09-18 20:19:21.140 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:19:21.145 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:19:21.210 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:19:21.212 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 72.8837 ms
+2025-09-18 20:19:26.641 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0342 ms
+2025-09-18 20:19:26.659 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 9.8666 ms
+2025-09-18 20:19:26.738 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0310 ms
+2025-09-18 20:19:26.744 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.5399 ms
+2025-09-18 20:19:42.407 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0500 ms
+2025-09-18 20:19:42.423 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 9.3526 ms
+2025-09-18 20:19:42.542 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0283 ms
+2025-09-18 20:19:42.548 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3266 ms
+2025-09-18 20:19:43.660 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1077.4126 ms
+2025-09-18 20:20:19.019 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0342 ms
+2025-09-18 20:20:19.038 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.4358 ms
+2025-09-18 20:20:19.065 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 52302.1945 ms
+2025-09-18 20:20:20.561 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0517 ms
+2025-09-18 20:20:20.570 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.2099 ms
+2025-09-18 20:20:20.586 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0295 ms
+2025-09-18 20:20:20.592 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2859 ms
+2025-09-18 20:21:05.459 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0391 ms
+2025-09-18 20:21:05.467 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:21:05.472 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:21:05.541 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:21:05.544 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 78.3828 ms
+2025-09-18 20:22:01.063 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 100464.4386 ms
+2025-09-18 20:22:47.722 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0410 ms
+2025-09-18 20:22:47.736 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:22:47.741 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:22:47.810 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:22:47.812 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 77.1725 ms
+2025-09-18 20:22:50.484 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0237 ms
+2025-09-18 20:22:50.495 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 4.8481 ms
+2025-09-18 20:22:50.561 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0263 ms
+2025-09-18 20:22:50.567 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1813 ms
+2025-09-18 20:23:00.923 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0334 ms
+2025-09-18 20:23:00.929 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:23:00.934 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:23:01.004 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:23:01.007 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 78.8327 ms
+2025-09-18 20:24:58.455 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 127864.6534 ms
+2025-09-18 20:51:39.076 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0282 ms
+2025-09-18 20:51:39.088 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:51:39.107 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:51:39.171 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:51:39.174 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 86.5889 ms
+2025-09-18 20:51:40.165 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0244 ms
+2025-09-18 20:51:40.171 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:51:40.175 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:51:40.243 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:51:40.245 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 74.6566 ms
+2025-09-18 20:51:45.496 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.4686 ms
+2025-09-18 20:51:45.508 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.1166 ms
+2025-09-18 20:51:45.581 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0296 ms
+2025-09-18 20:51:45.587 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2416 ms
+2025-09-18 20:51:50.673 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0505 ms
+2025-09-18 20:51:50.682 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.5831 ms
+2025-09-18 20:51:50.797 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0235 ms
+2025-09-18 20:51:50.802 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2608 ms
+2025-09-18 20:51:51.644 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 805.1897 ms
+2025-09-18 20:52:55.848 -06:00 [INF] Starting web host
+2025-09-18 20:53:06.053 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.2624 ms
+2025-09-18 20:53:06.434 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 20:53:06.988 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-09-18 20:53:07.816 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 20:53:07.974 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 20:53:07.995 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1918.6457 ms
+2025-09-18 21:06:01.534 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 40.6005 ms
+2025-09-18 21:06:01.543 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:06:01.622 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:06:01.696 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:06:01.699 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 159.6849 ms
+2025-09-18 21:06:11.855 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0480 ms
+2025-09-18 21:06:11.876 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:06:11.893 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:06:11.956 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:06:11.959 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 97.6919 ms
+2025-09-18 21:06:13.039 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0454 ms
+2025-09-18 21:06:13.286 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 238.8323 ms
+2025-09-18 21:06:13.351 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0635 ms
+2025-09-18 21:06:13.363 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 7.0907 ms
+2025-09-18 21:06:23.140 -06:00 [INF] HTTP OPTIONS /api/comensales/verificar/4412107790004L responded 204 in 0.1391 ms
+2025-09-18 21:06:23.146 -06:00 [INF] HTTP GET /api/comensales/verificar/4412107790004L responded 404 in 0.7931 ms
+2025-09-18 21:06:33.824 -06:00 [INF] HTTP OPTIONS /api/comensales/verificar/4412107790004L responded 204 in 0.0591 ms
+2025-09-18 21:06:33.831 -06:00 [INF] HTTP GET /api/comensales/verificar/4412107790004L responded 404 in 0.2935 ms
+2025-09-18 21:07:14.452 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.1416 ms
+2025-09-18 21:07:14.547 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 87.6306 ms
+2025-09-18 21:07:25.987 -06:00 [INF] HTTP OPTIONS /api/comensales/verificar/4412107790004L responded 204 in 0.0489 ms
+2025-09-18 21:07:26.020 -06:00 [INF] HTTP GET /api/comensales/verificar/4412107790004L responded 404 in 0.4030 ms
+2025-09-18 21:13:44.208 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 450828.4978 ms
+2025-09-18 21:28:48.145 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0447 ms
+2025-09-18 21:28:48.156 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:28:48.201 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:28:48.263 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:28:48.265 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 110.0558 ms
+2025-09-18 21:28:57.460 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0399 ms
+2025-09-18 21:28:57.472 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:28:57.476 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:28:57.535 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:28:57.537 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 65.3952 ms
+2025-09-18 21:29:00.896 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0686 ms
+2025-09-18 21:29:00.915 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 11.2699 ms
+2025-09-18 21:29:00.983 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.2348 ms
+2025-09-18 21:29:00.989 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3670 ms
+2025-09-18 21:29:14.333 -06:00 [INF] HTTP OPTIONS /api/Verificacion/verificar/4412107790004L responded 204 in 0.1289 ms
+2025-09-18 21:29:14.338 -06:00 [INF] HTTP GET /api/Verificacion/verificar/4412107790004L responded 404 in 0.2615 ms
+2025-09-18 21:41:48.819 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 767810.3299 ms
+2025-09-18 21:43:27.259 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1641 ms
+2025-09-18 21:43:27.270 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:43:27.290 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:43:27.366 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:43:27.368 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 98.2400 ms
+2025-09-18 21:43:35.713 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0614 ms
+2025-09-18 21:43:35.719 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:43:35.722 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:43:35.781 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:43:35.783 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 64.7401 ms
+2025-09-18 21:43:38.132 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0466 ms
+2025-09-18 21:43:38.144 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.2969 ms
+2025-09-18 21:43:38.209 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0342 ms
+2025-09-18 21:43:38.215 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2169 ms
+2025-09-18 21:43:44.128 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0489 ms
+2025-09-18 21:43:44.422 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 288.5797 ms
+2025-09-18 21:44:23.883 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0489 ms
+2025-09-18 21:44:23.908 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 45672.9868 ms
+2025-09-18 21:44:23.912 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 13.1809 ms
+2025-09-18 21:44:33.917 -06:00 [INF] HTTP OPTIONS /api/Despachos/1029 responded 204 in 0.8446 ms
+2025-09-18 21:44:33.984 -06:00 [INF] HTTP DELETE /api/Despachos/1029 responded 204 in 60.9148 ms
+2025-09-18 21:44:35.131 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0358 ms
+2025-09-18 21:44:35.143 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.2160 ms
+2025-09-18 21:44:38.216 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0442 ms
+2025-09-18 21:44:38.232 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 8.0872 ms
+2025-09-18 21:44:38.257 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0474 ms
+2025-09-18 21:44:38.266 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2875 ms
+2025-09-18 21:44:53.670 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0390 ms
+2025-09-18 21:44:53.705 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 19.8844 ms
+2025-09-18 21:46:07.563 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0356 ms
+2025-09-18 21:46:07.575 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 89300.4693 ms
+2025-09-18 21:46:07.632 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 44.8757 ms
+2025-09-18 21:46:12.133 -06:00 [INF] HTTP OPTIONS /api/Despachos/1030 responded 204 in 0.6700 ms
+2025-09-18 21:46:12.148 -06:00 [INF] HTTP DELETE /api/Despachos/1030 responded 204 in 10.5188 ms
+2025-09-18 21:46:13.256 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0339 ms
+2025-09-18 21:46:13.272 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 10.5035 ms
+2025-09-18 21:46:21.186 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0369 ms
+2025-09-18 21:46:21.203 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 10.3824 ms
+2025-09-18 21:46:21.373 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0352 ms
+2025-09-18 21:46:21.379 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1922 ms
+2025-09-18 21:46:22.338 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 913.1365 ms
+2025-09-18 21:46:27.343 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0475 ms
+2025-09-18 21:46:27.354 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.5571 ms
+2025-09-18 21:46:27.370 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0260 ms
+2025-09-18 21:46:27.376 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2465 ms
+2025-09-18 21:46:54.634 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0273 ms
+2025-09-18 21:46:54.664 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 23.9736 ms
+2025-09-18 21:47:14.113 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0218 ms
+2025-09-18 21:47:14.117 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 46730.8637 ms
+2025-09-18 21:47:14.138 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.7363 ms
+2025-09-18 21:47:21.255 -06:00 [INF] HTTP OPTIONS /api/Despachos/1031 responded 204 in 0.0253 ms
+2025-09-18 21:47:21.277 -06:00 [INF] HTTP DELETE /api/Despachos/1031 responded 204 in 12.9808 ms
+2025-09-18 21:47:23.510 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0254 ms
+2025-09-18 21:47:23.526 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 10.4585 ms
+2025-09-18 21:47:24.311 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0224 ms
+2025-09-18 21:47:24.325 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.7319 ms
+2025-09-18 21:47:24.341 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0317 ms
+2025-09-18 21:47:24.347 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2207 ms
+2025-09-18 21:47:29.897 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0262 ms
+2025-09-18 21:47:29.908 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.2328 ms
+2025-09-18 21:47:29.934 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0324 ms
+2025-09-18 21:47:29.940 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2010 ms
+2025-09-18 21:47:30.604 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 649.5662 ms
+2025-09-18 21:47:36.586 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0266 ms
+2025-09-18 21:47:36.616 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 22.2682 ms
+2025-09-18 21:48:59.049 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0274 ms
+2025-09-18 21:48:59.059 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 94701.3789 ms
+2025-09-18 21:48:59.077 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.1896 ms
+2025-09-18 21:49:03.813 -06:00 [INF] HTTP OPTIONS /api/Despachos/1032 responded 204 in 0.0283 ms
+2025-09-18 21:49:03.834 -06:00 [INF] HTTP DELETE /api/Despachos/1032 responded 204 in 14.7830 ms
+2025-09-18 21:49:04.699 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0200 ms
+2025-09-18 21:49:04.707 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.6886 ms
+2025-09-18 21:49:07.071 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0238 ms
+2025-09-18 21:49:07.082 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.3537 ms
+2025-09-18 21:49:07.098 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0249 ms
+2025-09-18 21:49:07.104 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3464 ms
+2025-09-18 21:49:11.718 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0315 ms
+2025-09-18 21:49:11.728 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 4.1252 ms
+2025-09-18 21:49:11.754 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0390 ms
+2025-09-18 21:49:11.764 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2255 ms
+2025-09-18 21:49:12.605 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 825.2993 ms
+2025-09-18 21:49:17.813 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0241 ms
+2025-09-18 21:49:17.842 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 22.0375 ms
+2025-09-18 21:51:48.563 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0350 ms
+2025-09-18 21:51:48.577 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 7.5007 ms
+2025-09-18 21:51:48.595 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 161483.2261 ms
+2025-09-18 21:51:53.112 -06:00 [INF] HTTP OPTIONS /api/Despachos/1033 responded 204 in 0.0202 ms
+2025-09-18 21:51:53.127 -06:00 [INF] HTTP DELETE /api/Despachos/1033 responded 204 in 9.4669 ms
+2025-09-18 21:51:54.262 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0244 ms
+2025-09-18 21:51:54.270 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.4834 ms
+2025-09-18 21:54:18.031 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0261 ms
+2025-09-18 21:54:18.048 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:54:18.056 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:54:18.143 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:54:18.145 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 97.0097 ms
+2025-09-18 21:54:27.317 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0186 ms
+2025-09-18 21:54:27.323 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 21:54:27.326 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 21:54:27.390 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 21:54:27.392 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 70.1802 ms
+2025-09-18 21:55:08.857 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0360 ms
+2025-09-18 21:55:08.876 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 11.0874 ms
+2025-09-18 21:55:08.973 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0252 ms
+2025-09-18 21:55:08.979 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2369 ms
+2025-09-18 21:55:16.142 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0225 ms
+2025-09-18 21:55:16.166 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 17.0216 ms
+2025-09-18 21:58:58.414 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0300 ms
+2025-09-18 21:58:58.437 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 229434.3636 ms
+2025-09-18 21:58:58.438 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 10.3480 ms
+2025-09-18 21:59:05.939 -06:00 [INF] HTTP OPTIONS /api/Despachos/1034 responded 204 in 0.0238 ms
+2025-09-18 21:59:05.952 -06:00 [INF] HTTP DELETE /api/Despachos/1034 responded 204 in 7.5851 ms
+2025-09-18 21:59:06.609 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0185 ms
+2025-09-18 21:59:06.617 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.1534 ms
+2025-09-18 21:59:07.959 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0496 ms
+2025-09-18 21:59:07.969 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.7564 ms
+2025-09-18 21:59:07.983 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0353 ms
+2025-09-18 21:59:07.988 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1447 ms
+2025-09-18 21:59:16.609 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004l responded 204 in 0.0196 ms
+2025-09-18 21:59:16.634 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004l responded 200 in 19.1732 ms
+2025-09-18 21:59:43.401 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0239 ms
+2025-09-18 21:59:43.413 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.8511 ms
+2025-09-18 21:59:43.427 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 35430.4139 ms
+2025-09-18 21:59:47.081 -06:00 [INF] HTTP OPTIONS /api/Despachos/1035 responded 204 in 0.0189 ms
+2025-09-18 21:59:47.098 -06:00 [INF] HTTP DELETE /api/Despachos/1035 responded 204 in 11.6594 ms
+2025-09-18 21:59:47.867 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.9444 ms
+2025-09-18 21:59:59.413 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0278 ms
+2025-09-18 21:59:59.427 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.5619 ms
+2025-09-18 21:59:59.538 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0193 ms
+2025-09-18 21:59:59.543 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1805 ms
+2025-09-18 22:00:00.324 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 746.7883 ms
+2025-09-18 22:00:01.460 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0517 ms
+2025-09-18 22:00:01.469 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.5777 ms
+2025-09-18 22:00:01.522 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0220 ms
+2025-09-18 22:00:01.528 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1369 ms
+2025-09-18 22:00:02.617 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0306 ms
+2025-09-18 22:00:02.625 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.5374 ms
+2025-09-18 22:00:08.827 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.0212 ms
+2025-09-18 22:00:35.436 -06:00 [ERR] HTTP GET /api/Verificacion/4412107790004L responded 500 in 26603.6327 ms
+System.InvalidOperationException: No active turno found for the current time.
+   at Comedor.Infrastructure.Services.DespachoService.CreateDespachoFromVerificationAsync(Int32 idComensal, String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\DespachoService.cs:line 200
+   at Comedor.Infrastructure.Services.ComensalVerificationService.VerifyAndRegisterComensalAsync(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\ComensalVerificationService.cs:line 66
+   at Comedor.API.Controllers.VerificacionController.Verificar(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\VerificacionController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-09-18 22:00:35.464 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0094 ms
+2025-09-18 22:00:35.464 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0333 ms
+2025-09-18 22:00:35.498 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 33951.3553 ms
+2025-09-18 22:00:36.560 -06:00 [ERR] HTTP GET /api/Verificacion/4412107790004L responded 500 in 1029.4197 ms
+System.InvalidOperationException: No active turno found for the current time.
+   at Comedor.Infrastructure.Services.DespachoService.CreateDespachoFromVerificationAsync(Int32 idComensal, String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\DespachoService.cs:line 200
+   at Comedor.Infrastructure.Services.ComensalVerificationService.VerifyAndRegisterComensalAsync(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\ComensalVerificationService.cs:line 66
+   at Comedor.API.Controllers.VerificacionController.Verificar(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\VerificacionController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-09-18 22:00:35.559 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0265 ms
+2025-09-18 22:00:36.573 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No active turno found for the current time.
+   at Comedor.Infrastructure.Services.DespachoService.CreateDespachoFromVerificationAsync(Int32 idComensal, String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\DespachoService.cs:line 200
+   at Comedor.Infrastructure.Services.ComensalVerificationService.VerifyAndRegisterComensalAsync(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\ComensalVerificationService.cs:line 66
+   at Comedor.API.Controllers.VerificacionController.Verificar(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\VerificacionController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-18 22:00:35.560 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0223 ms
+2025-09-18 22:00:36.583 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No active turno found for the current time.
+   at Comedor.Infrastructure.Services.DespachoService.CreateDespachoFromVerificationAsync(Int32 idComensal, String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\DespachoService.cs:line 200
+   at Comedor.Infrastructure.Services.ComensalVerificationService.VerifyAndRegisterComensalAsync(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\ComensalVerificationService.cs:line 66
+   at Comedor.API.Controllers.VerificacionController.Verificar(String identificacion) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\VerificacionController.cs:line 28
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-18 22:00:36.586 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 22:00:36.594 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 22:00:36.602 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 22:00:36.608 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 22:00:36.691 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 22:00:36.693 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 108.0083 ms
+2025-09-18 22:00:36.701 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 22:00:36.703 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 109.6842 ms
+2025-09-18 22:00:43.663 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0197 ms
+2025-09-18 22:00:43.670 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-18 22:00:43.673 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-18 22:00:43.775 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-18 22:00:43.776 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 108.0771 ms
+2025-09-18 22:00:54.917 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.4115 ms

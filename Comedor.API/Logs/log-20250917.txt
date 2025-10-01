@@ -1,0 +1,9 @@
+2025-09-17 11:51:33.199 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 16.0493 ms
+2025-09-17 11:51:33.491 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-17 11:51:33.716 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-17 11:51:33.874 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-17 11:51:33.882 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 568.6543 ms
+2025-09-17 11:51:55.774 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.1062 ms
+2025-09-17 11:51:56.119 -06:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-09-17 11:51:56.246 -06:00 [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results.
+2025-09-17 11:51:56.445 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 404 in 646.9831 ms

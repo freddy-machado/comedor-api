@@ -1,0 +1,15 @@
+2025-08-30 08:12:52.104 -06:00 [INF] Starting web host
+2025-08-30 08:14:37.413 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 2.9892 ms
+2025-08-30 08:14:37.844 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-30 08:14:38.403 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-08-30 08:14:39.332 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-30 08:14:39.531 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-30 08:14:39.559 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2124.6673 ms
+2025-08-30 08:14:41.302 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.8235 ms
+2025-08-30 08:14:41.627 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 316.0848 ms
+2025-08-30 08:14:58.500 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.1151 ms
+2025-08-30 08:14:58.550 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 44.1627 ms
+2025-08-30 08:14:58.577 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0516 ms
+2025-08-30 08:14:58.600 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 16.4362 ms
+2025-08-30 08:15:08.082 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0670 ms
+2025-08-30 08:15:08.107 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 18.6910 ms

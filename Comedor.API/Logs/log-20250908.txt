@@ -1,0 +1,33 @@
+2025-09-08 20:35:17.569 -06:00 [INF] Starting web host
+2025-09-08 20:38:18.760 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 2.4847 ms
+2025-09-08 20:38:19.221 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-08 20:38:19.796 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-09-08 20:38:20.793 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-08 20:38:20.993 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-08 20:38:21.019 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2229.4067 ms
+2025-09-08 20:39:54.673 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 36.5568 ms
+2025-09-08 20:39:54.690 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-08 20:39:54.759 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-08 20:39:54.837 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-08 20:39:54.839 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 158.5653 ms
+2025-09-08 20:39:56.477 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0465 ms
+2025-09-08 20:39:56.793 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 308.9815 ms
+2025-09-08 20:39:56.880 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0666 ms
+2025-09-08 20:39:56.896 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 10.6218 ms
+2025-09-08 20:40:10.277 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.1101 ms
+2025-09-08 20:40:10.627 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 341.0805 ms
+2025-09-08 20:40:25.827 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.1363 ms
+2025-09-08 20:40:25.894 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 60.7935 ms
+2025-09-08 20:40:28.124 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0444 ms
+2025-09-08 20:40:28.139 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 8.3535 ms
+2025-09-08 20:40:32.659 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0828 ms
+2025-09-08 20:40:32.707 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 35782.8228 ms
+2025-09-08 20:40:32.744 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 78.9429 ms
+2025-09-08 20:40:43.416 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0434 ms
+2025-09-08 20:40:43.439 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 17.6487 ms
+2025-09-08 20:40:43.465 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0602 ms
+2025-09-08 20:40:43.488 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 16.6760 ms
+2025-09-08 20:40:43.510 -06:00 [INF] HTTP OPTIONS /api/Despachos/1009 responded 204 in 0.0526 ms
+2025-09-08 20:40:43.526 -06:00 [INF] HTTP GET /api/Despachos/1009 responded 200 in 9.7796 ms
+2025-09-08 20:40:47.030 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.2301 ms
+2025-09-08 20:40:47.045 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 8.4377 ms

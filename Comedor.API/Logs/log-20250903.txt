@@ -1,0 +1,12 @@
+2025-09-03 10:45:34.533 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 4.5684 ms
+2025-09-03 10:45:34.614 -06:00 [INF] Attempting login for user: freddy.machado
+2025-09-03 10:45:34.761 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-09-03 10:45:34.910 -06:00 [INF] Login successful for user: freddy.machado
+2025-09-03 10:45:34.922 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 352.8288 ms
+2025-09-03 10:45:45.144 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.5755 ms
+2025-09-03 10:45:45.188 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 31.6299 ms
+2025-09-03 10:45:45.410 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.1215 ms
+2025-09-03 10:45:45.432 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 9.7485 ms
+2025-09-03 10:45:47.255 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.1731 ms
+2025-09-03 10:45:47.343 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 76.9939 ms
+2025-09-03 10:45:47.368 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1871.3803 ms

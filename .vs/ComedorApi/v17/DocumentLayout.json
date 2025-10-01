@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\comensalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\comensalescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.infrastructure\\services\\comensalverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|solutionrelative:comedor.infrastructure\\services\\comensalverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\verificacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\despachoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\despachoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.infrastructure\\repositories\\despachorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|solutionrelative:comedor.infrastructure\\repositories\\despachorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerificacionController.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\VerificacionController.cs",
+              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\VerificacionController.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\VerificacionController.cs",
+              "RelativeToolTip": "Comedor.API\\Controllers\\VerificacionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T18:11:20.311Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Comedor.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAwwF0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T22:06:04.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComensalVerificationService.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Services\\ComensalVerificationService.cs",
+              "RelativeDocumentMoniker": "Comedor.Infrastructure\\Services\\ComensalVerificationService.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Services\\ComensalVerificationService.cs",
+              "RelativeToolTip": "Comedor.Infrastructure\\Services\\ComensalVerificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T15:52:35.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DespachosController.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\DespachosController.cs",
+              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\DespachosController.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\DespachosController.cs",
+              "RelativeToolTip": "Comedor.API\\Controllers\\DespachosController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-15T20:02:25.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DespachoRepository.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Repositories\\DespachoRepository.cs",
+              "RelativeDocumentMoniker": "Comedor.Infrastructure\\Repositories\\DespachoRepository.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Repositories\\DespachoRepository.cs",
+              "RelativeToolTip": "Comedor.Infrastructure\\Repositories\\DespachoRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T21:27:47.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComensalesController.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\ComensalesController.cs",
+              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\ComensalesController.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\ComensalesController.cs",
+              "RelativeToolTip": "Comedor.API\\Controllers\\ComensalesController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T02:59:27.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+2025-08-29 10:13:15.374 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0879 ms
+2025-08-29 10:13:15.407 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-29 10:13:15.456 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-29 10:13:15.563 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-29 10:13:15.565 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 163.5099 ms
+2025-08-29 10:14:29.335 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0317 ms
+2025-08-29 10:14:29.348 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-29 10:14:29.354 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-29 10:14:29.437 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-29 10:14:29.440 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 92.1587 ms
+2025-08-29 10:15:47.895 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0241 ms
+2025-08-29 10:15:47.910 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-29 10:15:47.917 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-29 10:15:48.016 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-29 10:15:48.019 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 109.8647 ms
+2025-08-29 10:16:03.233 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0322 ms
+2025-08-29 10:16:03.242 -06:00 [INF] Attempting login for user: freddy.machado
+2025-08-29 10:16:03.255 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-08-29 10:16:03.351 -06:00 [INF] Login successful for user: freddy.machado
+2025-08-29 10:16:03.354 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 114.2786 ms
+2025-08-29 10:16:06.195 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0267 ms
+2025-08-29 10:16:06.208 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 7.3266 ms
+2025-08-29 10:16:06.330 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0280 ms
+2025-08-29 10:16:06.337 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.5666 ms
+2025-08-29 10:16:57.064 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0235 ms
+2025-08-29 10:16:57.105 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 27.1399 ms
+2025-08-29 10:17:07.051 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0302 ms
+2025-08-29 10:17:07.079 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 22.2951 ms
+2025-08-29 10:17:22.242 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0232 ms
+2025-08-29 10:17:22.255 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.2592 ms
+2025-08-29 10:17:26.188 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0352 ms
+2025-08-29 10:17:26.205 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 10.3263 ms
+2025-08-29 10:17:27.126 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 1.8617 ms
+2025-08-29 10:21:29.268 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0340 ms
+2025-08-29 10:21:29.304 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 19.5196 ms
+2025-08-29 10:21:29.305 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 322938.9827 ms
+2025-08-29 10:21:39.012 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0202 ms
+2025-08-29 10:21:39.020 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 3.1593 ms
+2025-08-29 10:21:39.064 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0300 ms
+2025-08-29 10:21:39.075 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3.6727 ms
+2025-08-29 10:22:06.622 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0376 ms
+2025-08-29 10:22:06.644 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 16.3707 ms
+2025-08-29 10:22:08.228 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 3.4387 ms
+2025-08-29 10:22:16.163 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0329 ms
+2025-08-29 10:22:16.171 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 1.9191 ms
+2025-08-29 10:22:16.187 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0441 ms
+2025-08-29 10:22:16.197 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.3793 ms
+2025-08-29 10:22:16.207 -06:00 [INF] HTTP OPTIONS /api/Despachos/1026 responded 204 in 0.0302 ms
+2025-08-29 10:22:16.218 -06:00 [INF] HTTP GET /api/Despachos/1026 responded 200 in 3.7139 ms
+2025-08-29 10:22:20.284 -06:00 [INF] HTTP OPTIONS /api/Despachos/1026 responded 204 in 0.0267 ms
+2025-08-29 10:22:20.293 -06:00 [INF] HTTP PUT /api/Despachos/1026 responded 405 in 1.3997 ms
+2025-08-29 10:22:27.650 -06:00 [INF] HTTP OPTIONS /api/Despachos/1026 responded 204 in 0.0318 ms
+2025-08-29 10:22:27.657 -06:00 [INF] HTTP PUT /api/Despachos/1026 responded 405 in 0.3059 ms
+2025-08-29 10:22:36.760 -06:00 [INF] HTTP OPTIONS /api/Despachos/1026 responded 204 in 0.0337 ms
+2025-08-29 10:22:36.768 -06:00 [INF] HTTP PUT /api/Despachos/1026 responded 405 in 0.2221 ms
+2025-08-29 10:22:38.320 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0283 ms
+2025-08-29 10:22:38.334 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 6.8441 ms
+2025-08-29 10:22:44.248 -06:00 [INF] HTTP OPTIONS /api/Despachos/1026 responded 204 in 0.0291 ms
+2025-08-29 10:22:44.310 -06:00 [INF] HTTP DELETE /api/Despachos/1026 responded 204 in 49.3772 ms
+2025-08-29 10:22:45.190 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0275 ms
+2025-08-29 10:22:45.198 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 2.6544 ms
+2025-08-29 10:22:52.262 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0568 ms
+2025-08-29 10:22:52.272 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.2398 ms
+2025-08-29 10:22:52.281 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0288 ms
+2025-08-29 10:22:52.290 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 2.3547 ms
+2025-08-29 10:22:54.891 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0193 ms
+2025-08-29 10:22:54.902 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 4.4835 ms
+2025-08-29 10:24:08.381 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0329 ms
+2025-08-29 10:24:08.406 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 8.2622 ms
+2025-08-29 10:24:08.598 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0337 ms
+2025-08-29 10:24:08.604 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2136 ms
+2025-08-29 10:24:10.026 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0310 ms
+2025-08-29 10:24:10.038 -06:00 [INF] HTTP GET /api/Despachos responded 200 in 5.8991 ms
+2025-08-29 10:24:10.061 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1393.5105 ms
+2025-08-29 10:24:24.875 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0279 ms
+2025-08-29 10:24:24.886 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.4845 ms
+2025-08-29 10:24:24.907 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0318 ms
+2025-08-29 10:24:24.916 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2383 ms
+2025-08-29 10:24:25.735 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 801.3529 ms
