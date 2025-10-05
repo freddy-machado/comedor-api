@@ -36,44 +36,11 @@ namespace Comedor.Infrastructure.Services
             return _mapper.Map<ComensalDto>(comensal);
         }
 
-        public async Task<ComensalDto> CreateComensalAsync(ComensalCreateDto createDto)
+        public async Task<ComensalCreateDto> GetComensalCreateDtoByIdAsync(int id)
         {
-            if (!string.IsNullOrEmpty(createDto.Identificacion)){
-                var existingByIdentificacion = await _unitOfWork.Comensales.GetByIdentificacionAsync(createDto.Identificacion);
-                if (existingByIdentificacion != null)
-                {
-                    throw new InvalidOperationException($"Ya existe un comensal con la identificación '{createDto.Identificacion}'.");
-                }
-            }
-
-            var comensal = _mapper.Map<Comensal>(createDto);
-            if(comensal.Activo == null) comensal.Activo = true;
-
-            await _unitOfWork.Comensales.AddAsync(comensal);
-            await _unitOfWork.SaveAsync();
-
-            return _mapper.Map<ComensalDto>(comensal);
-        }
-
-        public async Task<bool> UpdateComensalAsync(int id, ComensalCreateDto updateDto)
-        {
-            var existingComensal = await _unitOfWork.Comensales.GetByIdAsync(id);
-            if (existingComensal == null) return false;
-
-            if (!string.IsNullOrEmpty(updateDto.Identificacion)){
-                var existingByIdentificacion = await _unitOfWork.Comensales.GetByIdentificacionAsync(updateDto.Identificacion);
-                if (existingByIdentificacion != null && existingByIdentificacion.Id != id)
-                {
-                    throw new InvalidOperationException($"La identificación '{updateDto.Identificacion}' ya está en uso por otro comensal.");
-                }
-            }
-
-            _mapper.Map(updateDto, existingComensal);
-            _unitOfWork.Comensales.Update(existingComensal);
-            var result = await _unitOfWork.SaveAsync();
-
-            return result > 0;
-        }
+            var comensal = await _unitOfWork.Comensales.GetByIdAsync(id);
+            return _mapper.Map<ComensalCreateDto>(comensal);
+        }        
 
         public async Task<bool> InactivateComensalAsync(int id)
         {
@@ -91,6 +58,35 @@ namespace Comedor.Infrastructure.Services
         {
             var comensales = await _unitOfWork.Comensales.GetAllActiveAsync();
             return _mapper.Map<IEnumerable<ComensalDto>>(comensales);
+        }
+
+        public async Task<ComensalDto?> UpsertComensalAsync(ComensalCreateDto dto)
+        {
+            if (string.IsNullOrWhiteSpace(dto.Identificacion))
+                throw new InvalidOperationException("La identificación es obligatoria.");
+
+            var existingComensal = await _unitOfWork.Comensales.GetByIdentificacionAsync(dto.Identificacion);
+
+            if (existingComensal == null)
+            {
+                // Crear nuevo comensal
+                var comensal = _mapper.Map<Comensal>(dto);
+                if (comensal.Activo == null) comensal.Activo = true;
+
+                await _unitOfWork.Comensales.AddAsync(comensal);
+                await _unitOfWork.SaveAsync();
+
+                return _mapper.Map<ComensalDto>(comensal);
+            }
+            else
+            {
+                // Actualizar comensal existente
+                _mapper.Map(dto, existingComensal);
+                _unitOfWork.Comensales.Update(existingComensal);
+                var result = await _unitOfWork.SaveAsync();
+
+                return result > 0 ? _mapper.Map<ComensalDto>(existingComensal) : null;
+            }
         }
     }
 }

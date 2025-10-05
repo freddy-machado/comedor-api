@@ -18,6 +18,7 @@ public class MappingProfile : Profile
         // Comensal Mappings
         CreateMap<Comensal, ComensalDto>().ReverseMap();
         CreateMap<ComensalCreateDto, Comensal>();
+        CreateMap<Comensal, ComensalCreateDto>();
         
         // Area and Cargo Mappings
         CreateMap<AreaView, AreaDto>();

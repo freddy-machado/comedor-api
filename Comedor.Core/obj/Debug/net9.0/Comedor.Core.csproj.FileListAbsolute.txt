@@ -10,3 +10,4 @@ D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Co
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\refint\Comedor.Core.dll
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.pdb
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\ref\Comedor.Core.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Core\obj\Debug\net9.0\Comedor.Core.sourcelink.json

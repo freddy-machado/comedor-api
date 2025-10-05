@@ -214,22 +214,6 @@
   },
   {
     "ContainingType": "Comedor.API.Controllers.ComensalesController",
-    "Method": "CreateComensal",
-    "RelativePath": "api/Comensales",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "comensalDto",
-        "Type": "Comedor.Core.Dtos.ComensalDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Comedor.API.Controllers.ComensalesController",
     "Method": "GetComensalById",
     "RelativePath": "api/Comensales/{id}",
     "HttpMethod": "GET",
@@ -247,23 +231,12 @@
   },
   {
     "ContainingType": "Comedor.API.Controllers.ComensalesController",
-    "Method": "UpdateComensal",
-    "RelativePath": "api/Comensales/{id}",
-    "HttpMethod": "PUT",
+    "Method": "GetAll",
+    "RelativePath": "api/Comensales/all-active",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "comensalDto",
-        "Type": "Comedor.Core.Dtos.ComensalDto",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -277,6 +250,22 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.ComensalesController",
+    "Method": "UpsertComensal",
+    "RelativePath": "api/Comensales/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Comedor.Core.Dtos.ComensalCreateDto",
         "IsRequired": true
       }
     ],

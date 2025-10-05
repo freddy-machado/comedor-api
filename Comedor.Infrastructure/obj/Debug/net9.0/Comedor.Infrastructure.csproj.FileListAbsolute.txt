@@ -15,3 +15,4 @@ D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.pdb
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.genruntimeconfig.cache
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\ref\Comedor.Infrastructure.dll
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\obj\Debug\net9.0\Comedor.Infrastructure.sourcelink.json

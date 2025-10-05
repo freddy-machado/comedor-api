@@ -8,8 +8,8 @@ namespace Comedor.Core.Interfaces
     {
         Task<PagedResultDto<ComensalDto>> GetComensalesAsync(string? search, int page, int pageSize);
         Task<ComensalDto> GetComensalByIdAsync(int id);
-        Task<ComensalDto> CreateComensalAsync(ComensalCreateDto createDto);
-        Task<bool> UpdateComensalAsync(int id, ComensalCreateDto updateDto);
+        Task<ComensalCreateDto> GetComensalCreateDtoByIdAsync(int id);
+        Task<ComensalDto?> UpsertComensalAsync(ComensalCreateDto dto); // Método agregado
         Task<bool> InactivateComensalAsync(int id);
         Task<IEnumerable<ComensalDto>> GetAllActiveComensalesAsync();
     }

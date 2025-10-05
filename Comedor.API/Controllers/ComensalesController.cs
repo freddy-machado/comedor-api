@@ -10,13 +10,17 @@ namespace Comedor.API.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
-[Authorize] // Protect this controller
+[Authorize]
 public class ComensalesController : ControllerBase
 {
+    private readonly IUnitOfWork _unitOfWork;
+    private readonly AutoMapper.IMapper _mapper;
     private readonly IComensalService _comensalService;
 
-    public ComensalesController(IComensalService comensalService)
+    public ComensalesController(IUnitOfWork unitOfWork, AutoMapper.IMapper mapper, IComensalService comensalService)
     {
+        _unitOfWork = unitOfWork;
+        _mapper = mapper;
         _comensalService = comensalService;
     }
 
@@ -30,55 +34,13 @@ public class ComensalesController : ControllerBase
     [HttpGet("{id}", Name = "GetComensalById")]
     public async Task<IActionResult> GetComensalById(int id)
     {
-        var comensalDto = await _comensalService.GetComensalByIdAsync(id);
+        var comensalDto = await _comensalService.GetComensalCreateDtoByIdAsync(id);
         if (comensalDto == null)
         {
             return NotFound();
         }
         return Ok(comensalDto);
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> CreateComensal([FromBody] ComensalCreateDto createDto)
-    {
-        if (createDto == null)
-        {
-            return BadRequest("Comensal object is null");
-        }
-
-        try
-        {
-            var createdComensal = await _comensalService.CreateComensalAsync(createDto);
-            return CreatedAtRoute("GetComensalById", new { id = createdComensal.Id }, createdComensal);
-        }
-        catch (InvalidOperationException ex)
-        {
-            return Conflict(new { message = ex.Message });
-        }
-    }
-
-    [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateComensal(int id, [FromBody] ComensalCreateDto updateDto)
-    {
-        if (updateDto == null)
-        {
-            return BadRequest("Invalid comensal data");
-        }
-
-        try
-        {
-            var result = await _comensalService.UpdateComensalAsync(id, updateDto);
-            if (!result)
-            {
-                return NotFound();
-            }
-            return NoContent();
-        }
-        catch (InvalidOperationException ex)
-        {
-            return Conflict(new { message = ex.Message });
-        }
-    }
+    }    
 
     [HttpPut("inactivate/{id}")]
     public async Task<IActionResult> InactivateComensal(int id)
@@ -97,5 +59,26 @@ public class ComensalesController : ControllerBase
     {
         var result = await _comensalService.GetAllActiveComensalesAsync();
         return Ok(result);
+    }
+
+    [HttpPost("upsert")]
+    public async Task<IActionResult> UpsertComensal([FromBody] ComensalCreateDto dto)
+    {
+        if (dto == null || string.IsNullOrWhiteSpace(dto.Identificacion))
+            return BadRequest("El objeto Comensal es nulo o la identificación es obligatoria.");
+
+        try
+        {
+            var result = await _comensalService.UpsertComensalAsync(dto);
+            if (result == null)
+                return NotFound();
+
+            // Si el resultado tiene un Id, asumimos que fue creado o actualizado correctamente
+            return Ok(result);
+        }
+        catch (InvalidOperationException ex)
+        {
+            return Conflict(new { message = ex.Message });
+        }
     }
 }

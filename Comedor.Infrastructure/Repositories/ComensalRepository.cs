@@ -21,10 +21,15 @@ public class ComensalRepository : GenericRepository<Comensal>, IComensalReposito
         if (!string.IsNullOrWhiteSpace(search))
         {
             var lowerCaseSearch = search.ToLower();
-            query = query.Where(c => 
-                (c.NombreColaborador != null && c.NombreColaborador.ToLower().Contains(lowerCaseSearch)) ||
-                (c.Identificacion != null && c.Identificacion.ToLower().Contains(lowerCaseSearch)) ||
-                (c.Area != null && c.Area.ToLower().Contains(lowerCaseSearch))
+            query = query.Where(c =>
+                (
+                    ((c.Identificacion ?? "") + " " +
+                     (c.NombreColaborador ?? "") + " " +
+                     (c.Area ?? "") + " " +
+                     (c.CentroCosto ?? "") + " " +
+                     ((c.Activo ?? false) ? "activo" : "inactivo")
+                    ).ToLower().Contains(lowerCaseSearch)
+                )
             );
         }
 

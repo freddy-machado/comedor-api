@@ -1,0 +1,341 @@
+2025-10-05 07:32:40.327 -06:00 [INF] HTTP OPTIONS /api/Comensales/paginados responded 204 in 0.0348 ms
+2025-10-05 07:32:40.396 -06:00 [INF] HTTP GET /api/Comensales/paginados responded 401 in 36.2602 ms
+2025-10-05 07:34:56.707 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0340 ms
+2025-10-05 07:34:56.740 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 07:34:56.774 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 07:34:56.905 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 07:34:56.909 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 191.7691 ms
+2025-10-05 07:34:58.528 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0301 ms
+2025-10-05 07:34:58.549 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 10.0227 ms
+2025-10-05 07:36:52.174 -06:00 [INF] HTTP OPTIONS /api/Comensales/paginados responded 204 in 0.0397 ms
+2025-10-05 07:36:52.195 -06:00 [INF] HTTP GET /api/Comensales/paginados responded 400 in 1.9569 ms
+2025-10-05 07:42:15.134 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0344 ms
+2025-10-05 07:42:15.143 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 07:42:15.165 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 07:42:15.246 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 07:42:15.248 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 105.6050 ms
+2025-10-05 07:42:17.188 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0345 ms
+2025-10-05 07:42:17.213 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 10.1400 ms
+2025-10-05 07:42:19.129 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0238 ms
+2025-10-05 07:42:19.143 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 9.0645 ms
+2025-10-05 07:42:20.176 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 7.6082 ms
+2025-10-05 07:42:24.190 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0280 ms
+2025-10-05 07:42:24.211 -06:00 [INF] HTTP GET /api/Areas responded 200 in 10.0845 ms
+2025-10-05 07:42:24.294 -06:00 [INF] HTTP OPTIONS /api/Comensales/1 responded 204 in 0.0230 ms
+2025-10-05 07:42:24.306 -06:00 [INF] HTTP GET /api/Comensales/1 responded 200 in 4.9961 ms
+2025-10-05 07:42:35.372 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0420 ms
+2025-10-05 07:42:35.397 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 12.1317 ms
+2025-10-05 07:42:40.650 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0199 ms
+2025-10-05 07:42:40.708 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 07:42:40.711 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 07:42:40.723 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 68.0104 ms
+2025-10-05 07:42:44.902 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0218 ms
+2025-10-05 07:42:44.951 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 44.5809 ms
+2025-10-05 07:42:52.466 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0418 ms
+2025-10-05 07:42:52.520 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 44.4391 ms
+2025-10-05 07:42:53.971 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 53.9375 ms
+2025-10-05 07:42:56.913 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0319 ms
+2025-10-05 07:42:56.923 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 4.6324 ms
+2025-10-05 07:43:01.545 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0232 ms
+2025-10-05 07:43:01.617 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 65.0962 ms
+2025-10-05 07:43:06.117 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 67.0722 ms
+2025-10-05 07:43:08.981 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0278 ms
+2025-10-05 07:43:08.992 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 5.1908 ms
+2025-10-05 07:43:17.086 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0237 ms
+2025-10-05 07:43:17.151 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 58.1948 ms
+2025-10-05 07:43:27.289 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0348 ms
+2025-10-05 07:43:27.366 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 68.9936 ms
+2025-10-05 07:43:33.599 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0532 ms
+2025-10-05 07:43:33.621 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 12.3005 ms
+2025-10-05 07:43:35.970 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0254 ms
+2025-10-05 07:43:36.035 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 58.2992 ms
+2025-10-05 07:43:42.686 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0247 ms
+2025-10-05 07:43:42.697 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 4.7291 ms
+2025-10-05 07:44:06.675 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0214 ms
+2025-10-05 07:44:40.964 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 34283.6192 ms
+2025-10-05 07:44:53.281 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0391 ms
+2025-10-05 07:44:55.098 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 1810.7387 ms
+2025-10-05 07:45:06.203 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0224 ms
+2025-10-05 07:45:10.703 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 4493.1727 ms
+2025-10-05 07:45:15.145 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0183 ms
+2025-10-05 07:45:18.978 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 3829.0818 ms
+2025-10-05 07:45:28.980 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0258 ms
+2025-10-05 07:52:01.095 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 392110.1619 ms
+2025-10-05 07:52:06.732 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0420 ms
+2025-10-05 07:52:06.748 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 07:52:06.767 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 07:52:06.939 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 07:52:06.944 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 196.9154 ms
+2025-10-05 07:52:09.853 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0345 ms
+2025-10-05 07:53:11.038 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 61170.3174 ms
+2025-10-05 07:53:15.929 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0351 ms
+2025-10-05 08:31:06.080 -06:00 [INF] Starting web host
+2025-10-05 08:32:57.666 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 6.5257 ms
+2025-10-05 08:32:58.714 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 08:33:00.560 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-10-05 08:33:03.045 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 08:33:03.292 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 1.1821 ms
+2025-10-05 08:33:03.376 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 08:33:03.589 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 08:33:03.654 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 08:33:03.748 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 6024.8112 ms
+2025-10-05 08:33:03.851 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 08:33:03.857 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 551.0969 ms
+2025-10-05 08:33:05.707 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.2046 ms
+2025-10-05 08:33:12.596 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:33:12.604 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:33:13.428 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 7700.3417 ms
+2025-10-05 08:33:59.461 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1430 ms
+2025-10-05 08:34:03.383 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:34:03.387 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:34:10.455 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 10965.3716 ms
+2025-10-05 08:34:16.170 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1105 ms
+2025-10-05 08:34:16.317 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:34:16.321 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 08:34:16.463 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 278.1932 ms
+2025-10-05 08:34:32.613 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1167 ms
+2025-10-05 08:34:32.881 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 252.2524 ms
+2025-10-05 08:34:52.848 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1905 ms
+2025-10-05 08:34:52.876 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 14.9805 ms
+2025-10-05 08:34:57.089 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0846 ms
+2025-10-05 08:34:57.407 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 303.4361 ms
+2025-10-05 08:35:03.872 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0732 ms
+2025-10-05 08:35:03.902 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 16.7023 ms
+2025-10-05 08:35:11.107 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0936 ms
+2025-10-05 08:35:11.399 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 280.1707 ms
+2025-10-05 08:35:14.681 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 1.3456 ms
+2025-10-05 08:35:14.817 -06:00 [INF] HTTP GET /api/Areas responded 200 in 121.4737 ms
+2025-10-05 08:35:14.902 -06:00 [INF] HTTP OPTIONS /api/Comensales/37232 responded 204 in 0.0924 ms
+2025-10-05 08:35:15.047 -06:00 [INF] HTTP GET /api/Comensales/37232 responded 200 in 128.4384 ms
+2025-10-05 08:35:19.732 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0920 ms
+2025-10-05 08:35:19.769 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 11.5228 ms
+2025-10-05 08:35:24.227 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0871 ms
+2025-10-05 08:35:24.535 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 285.4976 ms
+2025-10-05 08:35:27.543 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0640 ms
+2025-10-05 08:35:27.593 -06:00 [INF] HTTP GET /api/Areas responded 200 in 7.6742 ms
+2025-10-05 08:35:27.639 -06:00 [INF] HTTP OPTIONS /api/Comensales/37232 responded 204 in 0.1275 ms
+2025-10-05 08:35:27.659 -06:00 [INF] HTTP GET /api/Comensales/37232 responded 200 in 6.6089 ms
+2025-10-05 08:35:38.155 -06:00 [INF] HTTP OPTIONS /api/Comensales/upsert responded 204 in 0.0999 ms
+2025-10-05 08:35:38.794 -06:00 [INF] HTTP POST /api/Comensales/upsert responded 200 in 623.7340 ms
+2025-10-05 08:35:40.175 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0533 ms
+2025-10-05 08:35:40.210 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 14.3339 ms
+2025-10-05 08:35:44.014 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0582 ms
+2025-10-05 08:35:44.275 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 250.4092 ms
+2025-10-05 08:35:46.849 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0482 ms
+2025-10-05 08:35:46.870 -06:00 [INF] HTTP GET /api/Areas responded 200 in 7.0252 ms
+2025-10-05 08:35:46.922 -06:00 [INF] HTTP OPTIONS /api/Comensales/37232 responded 204 in 0.0716 ms
+2025-10-05 08:35:46.940 -06:00 [INF] HTTP GET /api/Comensales/37232 responded 200 in 5.3900 ms
+2025-10-05 08:35:50.377 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0540 ms
+2025-10-05 08:35:50.407 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 10.0013 ms
+2025-10-05 08:35:54.063 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0345 ms
+2025-10-05 08:35:54.305 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 229.4485 ms
+2025-10-05 08:35:56.016 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0428 ms
+2025-10-05 08:35:56.041 -06:00 [INF] HTTP GET /api/Areas responded 200 in 6.2436 ms
+2025-10-05 08:35:56.100 -06:00 [INF] HTTP OPTIONS /api/Comensales/97717 responded 204 in 0.0640 ms
+2025-10-05 08:35:56.125 -06:00 [INF] HTTP GET /api/Comensales/97717 responded 200 in 5.2668 ms
+2025-10-05 08:36:10.615 -06:00 [INF] HTTP OPTIONS /api/Comensales/upsert responded 204 in 0.0614 ms
+2025-10-05 08:36:10.659 -06:00 [INF] HTTP POST /api/Comensales/upsert responded 200 in 32.5523 ms
+2025-10-05 08:36:11.939 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0475 ms
+2025-10-05 08:36:11.970 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 16.6140 ms
+2025-10-05 08:42:29.949 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0305 ms
+2025-10-05 08:42:29.999 -06:00 [INF] HTTP GET /api/Areas responded 200 in 38.1033 ms
+2025-10-05 08:43:49.301 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 5.1696 ms
+2025-10-05 08:43:49.320 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 8.9776 ms
+2025-10-05 08:43:54.269 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.4293 ms
+2025-10-05 08:43:54.338 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 63.0724 ms
+2025-10-05 08:44:02.543 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0295 ms
+2025-10-05 08:44:02.555 -06:00 [INF] HTTP GET /api/Areas responded 200 in 5.4264 ms
+2025-10-05 08:47:38.398 -06:00 [INF] HTTP OPTIONS /api/Comensales/upsert responded 204 in 0.0442 ms
+2025-10-05 08:47:38.448 -06:00 [INF] HTTP POST /api/Comensales/upsert responded 200 in 35.6617 ms
+2025-10-05 08:47:39.691 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0308 ms
+2025-10-05 08:47:39.709 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 10.3743 ms
+2025-10-05 08:47:44.308 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0153 ms
+2025-10-05 08:47:44.422 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 108.3048 ms
+2025-10-05 08:47:48.203 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0264 ms
+2025-10-05 08:47:48.214 -06:00 [INF] HTTP GET /api/Areas responded 200 in 5.2934 ms
+2025-10-05 08:47:48.234 -06:00 [INF] HTTP OPTIONS /api/Comensales/97721 responded 204 in 0.0240 ms
+2025-10-05 08:47:48.245 -06:00 [INF] HTTP GET /api/Comensales/97721 responded 200 in 3.3412 ms
+2025-10-05 08:47:52.959 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0207 ms
+2025-10-05 08:47:52.973 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 7.5545 ms
+2025-10-05 08:47:57.285 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0230 ms
+2025-10-05 08:47:57.479 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 186.9463 ms
+2025-10-05 08:48:02.653 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0252 ms
+2025-10-05 08:48:02.692 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 31.2203 ms
+2025-10-05 08:48:02.727 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0204 ms
+2025-10-05 08:48:02.738 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 4.4748 ms
+2025-10-05 08:48:06.514 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0182 ms
+2025-10-05 08:48:06.532 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 11.6941 ms
+2025-10-05 09:58:48.478 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0758 ms
+2025-10-05 09:58:48.518 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 19.5757 ms
+2025-10-05 09:58:51.197 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0246 ms
+2025-10-05 09:58:51.213 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 7.8381 ms
+2025-10-05 10:00:18.008 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 86746.8026 ms
+2025-10-05 10:00:19.229 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0348 ms
+2025-10-05 10:00:19.242 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 10:00:19.267 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 10:00:19.359 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 10:00:19.362 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 127.7433 ms
+2025-10-05 10:00:23.067 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0239 ms
+2025-10-05 10:00:33.934 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 10860.7228 ms
+2025-10-05 10:00:33.994 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0268 ms
+2025-10-05 10:00:34.002 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4409 ms
+2025-10-05 10:22:07.121 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1293127.0647 ms
+2025-10-05 10:22:11.823 -06:00 [INF] HTTP OPTIONS /api/Verificacion/441-210779-0004L responded 204 in 0.0485 ms
+2025-10-05 10:22:12.014 -06:00 [INF] HTTP GET /api/Verificacion/441-210779-0004L responded 200 in 182.5276 ms
+2025-10-05 10:22:15.373 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0184 ms
+2025-10-05 10:22:15.384 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.0612 ms
+2025-10-05 10:22:15.681 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0332 ms
+2025-10-05 10:22:15.689 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3116 ms
+2025-10-05 10:22:27.139 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0213 ms
+2025-10-05 10:22:27.187 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 41.7978 ms
+2025-10-05 10:22:28.531 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0258 ms
+2025-10-05 10:22:28.540 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.5503 ms
+2025-10-05 11:30:49.970 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 4114295.0705 ms
+2025-10-05 11:30:51.053 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0477 ms
+2025-10-05 11:30:51.063 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 3.0373 ms
+2025-10-05 11:30:52.788 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0278 ms
+2025-10-05 11:30:52.796 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.5071 ms
+2025-10-05 11:30:54.302 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1492.3217 ms
+2025-10-05 11:30:55.921 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0252 ms
+2025-10-05 11:30:55.930 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 11:30:55.993 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 11:30:56.112 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 11:30:56.115 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 187.3659 ms
+2025-10-05 11:30:58.485 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0223 ms
+2025-10-05 11:30:58.499 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 8.2253 ms
+2025-10-05 11:30:58.519 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0257 ms
+2025-10-05 11:30:58.525 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2025 ms
+2025-10-05 11:31:03.093 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0344 ms
+2025-10-05 11:31:03.111 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 10.6272 ms
+2025-10-05 11:31:03.598 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 5059.9869 ms
+2025-10-05 11:31:05.870 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0272 ms
+2025-10-05 11:31:05.887 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 8.8932 ms
+2025-10-05 11:31:07.806 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 6.2566 ms
+2025-10-05 11:31:08.858 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0340 ms
+2025-10-05 11:31:08.868 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.1523 ms
+2025-10-05 11:31:08.889 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0231 ms
+2025-10-05 11:31:08.896 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1701 ms
+2025-10-05 11:32:32.426 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0308 ms
+2025-10-05 11:32:32.463 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 18.7003 ms
+2025-10-05 11:32:35.356 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 10.2614 ms
+2025-10-05 11:32:36.944 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 88035.5647 ms
+2025-10-05 11:34:38.306 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0204 ms
+2025-10-05 11:34:38.318 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 11:34:38.325 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 11:34:38.424 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 11:34:38.426 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 108.6034 ms
+2025-10-05 11:34:42.250 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0261 ms
+2025-10-05 11:34:42.263 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.2631 ms
+2025-10-05 11:34:42.426 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0245 ms
+2025-10-05 11:34:42.433 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2546 ms
+2025-10-05 11:34:45.049 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0365 ms
+2025-10-05 11:34:45.069 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 13.5347 ms
+2025-10-05 11:34:45.091 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.3312 ms
+2025-10-05 11:34:49.039 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 13.7374 ms
+2025-10-05 11:34:49.051 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0229 ms
+2025-10-05 11:34:49.060 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.7879 ms
+2025-10-05 11:34:51.755 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0261 ms
+2025-10-05 11:34:51.768 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 5.7657 ms
+2025-10-05 11:34:51.782 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.2934 ms
+2025-10-05 11:34:52.876 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 11.2788 ms
+2025-10-05 11:34:52.889 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 2.6505 ms
+2025-10-05 11:34:57.127 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0283 ms
+2025-10-05 11:34:57.151 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 18.0538 ms
+2025-10-05 11:34:57.163 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0206 ms
+2025-10-05 11:34:57.175 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 6.3523 ms
+2025-10-05 11:35:01.132 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 12.5346 ms
+2025-10-05 11:35:01.150 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 7.1408 ms
+2025-10-05 11:35:06.697 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 24222.0758 ms
+2025-10-05 11:35:14.555 -06:00 [INF] HTTP OPTIONS /api/Verificacion/161-171163-0005W responded 204 in 0.0248 ms
+2025-10-05 11:35:14.613 -06:00 [INF] HTTP GET /api/Verificacion/161-171163-0005W responded 200 in 50.8766 ms
+2025-10-05 11:35:18.463 -06:00 [INF] HTTP OPTIONS /api/Verificacion/001-271183-0020T responded 204 in 0.0188 ms
+2025-10-05 11:35:18.503 -06:00 [INF] HTTP GET /api/Verificacion/001-271183-0020T responded 200 in 31.4751 ms
+2025-10-05 11:35:20.050 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0456 ms
+2025-10-05 11:35:20.063 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.0663 ms
+2025-10-05 11:35:20.081 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0272 ms
+2025-10-05 11:35:20.088 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.1664 ms
+2025-10-05 11:35:31.101 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0256 ms
+2025-10-05 11:35:31.120 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 11.3588 ms
+2025-10-05 11:35:31.144 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 11043.0826 ms
+2025-10-05 11:35:34.661 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.2204 ms
+2025-10-05 11:35:34.671 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 2.5718 ms
+2025-10-05 11:35:34.739 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0467 ms
+2025-10-05 11:35:34.753 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 6.6169 ms
+2025-10-05 11:35:39.833 -06:00 [INF] HTTP OPTIONS /api/Despachos/1081 responded 204 in 0.0224 ms
+2025-10-05 11:35:39.851 -06:00 [INF] HTTP GET /api/Despachos/1081 responded 200 in 10.9953 ms
+2025-10-05 11:35:45.168 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0278 ms
+2025-10-05 11:35:45.235 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 14.4263 ms
+2025-10-05 11:35:46.462 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0944 ms
+2025-10-05 11:35:46.479 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 7.3110 ms
+2025-10-05 11:35:48.649 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 26.5323 ms
+2025-10-05 11:38:42.986 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0318 ms
+2025-10-05 11:38:43.003 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 4.2883 ms
+2025-10-05 11:39:59.158 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0244 ms
+2025-10-05 11:39:59.180 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 7.1117 ms
+2025-10-05 11:40:03.825 -06:00 [INF] HTTP OPTIONS /api/Despachos/1083 responded 204 in 0.0212 ms
+2025-10-05 11:40:03.833 -06:00 [INF] HTTP GET /api/Despachos/1083 responded 200 in 2.5593 ms
+2025-10-05 11:57:59.849 -06:00 [INF] Starting web host
+2025-10-05 11:59:44.719 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.0219 ms
+2025-10-05 11:59:45.205 -06:00 [INF] Attempting login for user: freddy.machado
+2025-10-05 11:59:46.093 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-10-05 11:59:47.143 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-10-05 11:59:47.359 -06:00 [INF] Login successful for user: freddy.machado
+2025-10-05 11:59:47.386 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2642.9169 ms
+2025-10-05 11:59:56.311 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.7674 ms
+2025-10-05 11:59:56.626 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 306.3350 ms
+2025-10-05 11:59:56.768 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0767 ms
+2025-10-05 11:59:56.786 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 11.0307 ms
+2025-10-05 11:59:58.552 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1167 ms
+2025-10-05 11:59:58.626 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1794.7485 ms
+2025-10-05 11:59:58.767 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 209.2228 ms
+2025-10-05 12:00:00.038 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0532 ms
+2025-10-05 12:00:00.076 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 12:00:00.079 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-10-05 12:00:00.104 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 58.7613 ms
+2025-10-05 12:00:01.945 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 18.8112 ms
+2025-10-05 12:00:04.106 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.3572 ms
+2025-10-05 12:00:04.199 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 76.9921 ms
+2025-10-05 12:00:10.705 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.0958 ms
+2025-10-05 12:00:10.950 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 236.8694 ms
+2025-10-05 12:00:39.992 -06:00 [INF] HTTP OPTIONS /api/Despachos/1082 responded 204 in 0.2547 ms
+2025-10-05 12:00:40.050 -06:00 [INF] HTTP GET /api/Despachos/1082 responded 200 in 49.8513 ms
+2025-10-05 12:00:48.350 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1186 ms
+2025-10-05 12:00:48.368 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 11.4969 ms
+2025-10-05 12:00:52.114 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0610 ms
+2025-10-05 12:00:52.129 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 5.2084 ms
+2025-10-05 12:00:52.178 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.3389 ms
+2025-10-05 12:00:52.399 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 210.9908 ms
+2025-10-05 12:00:54.167 -06:00 [INF] HTTP OPTIONS /api/Despachos/1081 responded 204 in 0.0729 ms
+2025-10-05 12:00:54.178 -06:00 [INF] HTTP GET /api/Despachos/1081 responded 200 in 3.9195 ms
+2025-10-05 12:01:03.591 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0486 ms
+2025-10-05 12:01:03.604 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 5.3149 ms
+2025-10-05 12:01:07.900 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0787 ms
+2025-10-05 12:01:07.917 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 8.8988 ms
+2025-10-05 12:01:09.746 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0474 ms
+2025-10-05 12:01:09.759 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 6.4259 ms
+2025-10-05 12:01:11.310 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0766 ms
+2025-10-05 12:01:11.321 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 3.6977 ms
+2025-10-05 12:01:11.348 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.0421 ms
+2025-10-05 12:01:11.476 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 119.7353 ms
+2025-10-05 12:01:30.117 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.0583 ms
+2025-10-05 12:01:30.648 -06:00 [INF] HTTP POST /api/Despachos responded 201 in 524.8334 ms
+2025-10-05 12:01:32.134 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0367 ms
+2025-10-05 12:01:32.153 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 11.2761 ms
+2025-10-05 12:01:38.804 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0557 ms
+2025-10-05 12:01:38.816 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 5.8054 ms
+2025-10-05 12:01:38.833 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0577 ms
+2025-10-05 12:01:38.841 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.7323 ms
+2025-10-05 12:01:41.370 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0619 ms
+2025-10-05 12:01:41.393 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 15.8334 ms
+2025-10-05 12:01:41.411 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 2555.8111 ms
+2025-10-05 12:01:41.960 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0314 ms
+2025-10-05 12:01:41.973 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 6.4814 ms
+2025-10-05 12:01:47.406 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0555 ms
+2025-10-05 12:01:47.417 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 3.4673 ms
+2025-10-05 12:01:47.437 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0726 ms
+2025-10-05 12:01:47.445 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.3264 ms
+2025-10-05 12:01:50.044 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0379 ms
+2025-10-05 12:01:50.060 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 2603.7932 ms
+2025-10-05 12:01:50.066 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 13.0862 ms
+2025-10-05 12:01:52.844 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0348 ms
+2025-10-05 12:01:52.856 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 6.3679 ms

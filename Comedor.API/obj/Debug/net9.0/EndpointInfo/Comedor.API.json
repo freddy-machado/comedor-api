@@ -341,35 +341,6 @@
             "description": "Success"
           }
         }
-      },
-      "post": {
-        "tags": [
-          "Comensales"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
       }
     },
     "/api/Comensales/{id}": {
@@ -394,46 +365,6 @@
             "description": "Success"
           }
         }
-      },
-      "put": {
-        "tags": [
-          "Comensales"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/ComensalDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "Success"
-          }
-        }
       }
     },
     "/api/Comensales/inactivate/{id}": {
@@ -452,6 +383,49 @@
             }
           }
         ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comensales/all-active": {
+      "get": {
+        "tags": [
+          "Comensales"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Comensales/upsert": {
+      "post": {
+        "tags": [
+          "Comensales"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ComensalCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ComensalCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ComensalCreateDto"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success"
@@ -819,13 +793,9 @@
         },
         "additionalProperties": false
       },
-      "ComensalDto": {
+      "ComensalCreateDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "identificacion": {
             "type": "string",
             "nullable": true
@@ -842,12 +812,57 @@
             "type": "string",
             "nullable": true
           },
+          "tipoColaborador": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "observacion": {
             "type": "string",
             "nullable": true
           },
+          "fechaDesde": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fechaHasta": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "empacadas": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "cantidadComidas": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
           "activo": {
-            "type": "boolean"
+            "type": "boolean",
+            "nullable": true
+          },
+          "alerta": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "correoAsunto": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoPara": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoDe": {
+            "type": "string",
+            "nullable": true
+          },
+          "correoCC": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
