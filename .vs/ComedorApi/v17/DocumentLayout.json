@@ -34,16 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -67,8 +59,7 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Hubs\\DispatchHub.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:17:15.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T16:17:15.263Z"
             },
             {
               "$type": "Document",
@@ -80,8 +71,7 @@
               "RelativeToolTip": "Comedor.API\\Controllers\\VerificacionController.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:10:28.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T16:10:28.45Z"
             },
             {
               "$type": "Document",
@@ -93,8 +83,7 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Repositories\\DespachoRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:03:14.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T16:03:14.987Z"
             },
             {
               "$type": "Document",
@@ -106,8 +95,7 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Services\\DespachoService.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAYwBIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:01:51.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T16:01:51.001Z"
             },
             {
               "$type": "Document",
@@ -119,8 +107,15 @@
               "RelativeToolTip": "Comedor.API\\Controllers\\DespachosController.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAA/wCsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T01:47:46.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T01:47:46.476Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
