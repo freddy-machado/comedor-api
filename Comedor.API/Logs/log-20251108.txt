@@ -1,0 +1,113 @@
+2025-11-08 08:09:12.376 -06:00 [INF] Starting web host
+2025-11-08 08:47:00.943 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 9.5587 ms
+2025-11-08 08:47:02.364 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 08:47:04.243 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-08 08:47:07.242 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 08:47:07.802 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 08:47:07.915 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 6898.5541 ms
+2025-11-08 08:49:29.865 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 33.1642 ms
+2025-11-08 08:49:29.927 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 08:49:30.095 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 08:49:30.333 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 08:49:30.342 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 456.8758 ms
+2025-11-08 08:49:40.764 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1668 ms
+2025-11-08 08:49:40.819 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 08:49:40.858 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 08:49:41.094 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 08:49:41.099 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 321.2003 ms
+2025-11-08 08:49:44.529 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.1259 ms
+2025-11-08 08:49:45.550 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 996.3174 ms
+2025-11-08 08:49:48.488 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004L responded 204 in 0.1825 ms
+2025-11-08 08:49:49.806 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004L responded 200 in 1299.9344 ms
+2025-11-08 08:50:16.184 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 25.7653 ms
+2025-11-08 08:50:22.058 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 401 in 0.5461 ms
+2025-11-08 08:50:27.020 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1963 ms
+2025-11-08 08:50:30.860 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 3819.2394 ms
+2025-11-08 08:50:32.382 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0711 ms
+2025-11-08 08:50:32.545 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 147.1983 ms
+2025-11-08 08:50:37.421 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 401 in 0.3315 ms
+2025-11-08 11:26:09.728 -06:00 [INF] Starting web host
+2025-11-08 11:39:59.124 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 6.3198 ms
+2025-11-08 11:39:59.997 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 11:40:00.945 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-08 11:40:02.308 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 11:40:02.614 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 11:40:02.657 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3481.4186 ms
+2025-11-08 11:41:58.339 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 39.4059 ms
+2025-11-08 11:41:58.392 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 11:41:58.496 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 11:41:58.592 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 11:41:58.596 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 250.2987 ms
+2025-11-08 11:42:02.133 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0764 ms
+2025-11-08 11:42:02.721 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 574.5580 ms
+2025-11-08 11:42:09.708 -06:00 [INF] HTTP OPTIONS /api/Verificacion/161-171163-0005W responded 204 in 0.1496 ms
+2025-11-08 11:42:13.615 -06:00 [INF] HTTP GET /api/Verificacion/161-171163-0005W responded 200 in 3900.0165 ms
+2025-11-08 12:01:24.311 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1096 ms
+2025-11-08 12:01:24.365 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 12:01:24.403 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 12:01:24.579 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 12:01:24.583 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 253.3538 ms
+2025-11-08 12:01:36.650 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0960 ms
+2025-11-08 12:01:36.659 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-08 12:01:36.668 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-08 12:01:36.773 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-08 12:01:36.776 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 117.6782 ms
+2025-11-08 12:01:40.799 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.1463 ms
+2025-11-08 12:01:41.174 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 358.2170 ms
+2025-11-08 12:01:41.371 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.2206 ms
+2025-11-08 12:01:41.396 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 16.4899 ms
+2025-11-08 12:01:45.918 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0484 ms
+2025-11-08 12:01:46.002 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 76.8779 ms
+2025-11-08 12:01:46.024 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.1110 ms
+2025-11-08 12:01:46.115 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 82.1393 ms
+2025-11-08 12:01:47.034 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 12.4362 ms
+2025-11-08 12:01:47.134 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 81.5928 ms
+2025-11-08 12:01:53.127 -06:00 [INF] HTTP OPTIONS /api/Verificacion/001-271183-0020T responded 204 in 0.0644 ms
+2025-11-08 12:01:53.185 -06:00 [INF] HTTP GET /api/Verificacion/001-271183-0020T responded 200 in 50.1139 ms
+2025-11-08 12:02:07.749 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.3386 ms
+2025-11-08 12:02:07.849 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:02:07.855 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:02:07.901 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 26449.6454 ms
+2025-11-08 12:02:07.965 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 204.4826 ms
+2025-11-08 12:02:15.585 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0382 ms
+2025-11-08 12:02:15.695 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:02:15.700 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:02:15.734 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 141.2308 ms
+2025-11-08 12:02:22.497 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0569 ms
+2025-11-08 12:02:22.647 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 142.2799 ms
+2025-11-08 12:02:29.089 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0972 ms
+2025-11-08 12:02:29.239 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 142.3198 ms
+2025-11-08 12:02:30.423 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 148.6652 ms
+2025-11-08 12:02:37.313 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0605 ms
+2025-11-08 12:02:37.496 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 173.0985 ms
+2025-11-08 12:02:39.255 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 161.9753 ms
+2025-11-08 12:02:44.443 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0380 ms
+2025-11-08 12:02:44.583 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 130.1172 ms
+2025-11-08 12:02:53.035 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0594 ms
+2025-11-08 12:02:53.282 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 236.2391 ms
+2025-11-08 12:02:53.305 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0639 ms
+2025-11-08 12:02:53.314 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.9420 ms
+2025-11-08 12:02:55.024 -06:00 [INF] HTTP OPTIONS /api/Verificacion/281-181190-0006Q responded 204 in 0.0434 ms
+2025-11-08 12:02:55.075 -06:00 [INF] HTTP GET /api/Verificacion/281-181190-0006Q responded 200 in 43.8977 ms
+2025-11-08 12:03:28.463 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0498 ms
+2025-11-08 12:03:28.480 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 35149.6011 ms
+2025-11-08 12:03:28.485 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 10.9248 ms
+2025-11-08 12:03:31.966 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0463 ms
+2025-11-08 12:03:32.056 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 83.3110 ms
+2025-11-08 12:03:35.382 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0340 ms
+2025-11-08 12:03:35.450 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:03:35.453 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-08 12:03:35.514 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 124.8361 ms
+2025-11-08 12:03:39.432 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0429 ms
+2025-11-08 12:03:39.630 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 184.4744 ms
+2025-11-08 12:03:57.232 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0547 ms
+2025-11-08 12:03:57.250 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 8.4596 ms
+2025-11-08 12:04:03.740 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0346 ms
+2025-11-08 12:04:03.854 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 107.7767 ms
+2025-11-08 12:04:09.123 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0417 ms
+2025-11-08 12:04:09.375 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 239.7177 ms
+2025-11-08 12:04:09.406 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0689 ms
+2025-11-08 12:04:09.414 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.2555 ms
+2025-11-08 12:04:15.345 -06:00 [INF] HTTP OPTIONS /api/Verificacion/001-060783-0017T responded 204 in 0.0511 ms
+2025-11-08 12:04:15.395 -06:00 [INF] HTTP GET /api/Verificacion/001-060783-0017T responded 200 in 43.4667 ms
+2025-11-08 12:04:28.536 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 19101.3378 ms

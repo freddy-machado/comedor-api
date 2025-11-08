@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comedor.UnitTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81d7db0f9b6651707f90875321445a23fa7783b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18d3f6bf741caaf2f7191911ec822e4a2c862e9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comedor.UnitTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comedor.UnitTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

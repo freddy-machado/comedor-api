@@ -31,11 +31,18 @@ builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+// Decide whether to enable Swagger: only in Development
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comedor API v1");
+        c.RoutePrefix = string.Empty; // sirve Swagger UI en la raíz (/) — útil en dev
+    });
 }
+
+app.UseRouting();
 
 app.UseHttpsRedirection();
 

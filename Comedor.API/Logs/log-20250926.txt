@@ -1,5 +1,0 @@
-2025-09-26 11:02:33.913 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 14.6314 ms
-2025-09-26 11:02:34.233 -06:00 [INF] Attempting login for user: freddy.machado
-2025-09-26 11:02:34.544 -06:00 [INF] User 'freddy.machado' found. IsActive: True
-2025-09-26 11:02:34.767 -06:00 [INF] Login successful for user: freddy.machado
-2025-09-26 11:02:34.778 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 639.0841 ms

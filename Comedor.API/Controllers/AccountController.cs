@@ -1,10 +1,9 @@
 using Comedor.Core.Dtos.Auth;
 using Comedor.Core.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization; 
-using System.Collections.Generic; 
-using System; // For InvalidOperationException
 
 namespace Comedor.API.Controllers;
 
@@ -19,105 +18,129 @@ public class AccountController : ControllerBase
         _authService = authService;
     }
 
-    [HttpPost("register")] // This is now the single creation method
-    public async Task<IActionResult> Register(RegisterDto registerDto)
-    {
-        var result = await _authService.RegisterAsync(registerDto);
-        if (!string.IsNullOrEmpty(result.Message))
-        {
-            return BadRequest(new { result.Message });
-        }
-        // For registration, we might return 201 Created, but Ok is fine for now
-        return Ok(result);
-    }
-
     [HttpPost("login")]
-    public async Task<IActionResult> Login(LoginDto loginDto)
+    public async Task<IActionResult> Login([FromBody] LoginDto dto)
     {
-        var result = await _authService.LoginAsync(loginDto);
-        if (!result.IsAuthenticated.GetValueOrDefault())
-        {
-            return Unauthorized(new { result.Message });
-        }
-        return Ok(result);
+        var user = await _authService.LoginAsync(dto);
+        if (user == null || !user.IsAuthenticated.GetValueOrDefault())
+            return Unauthorized(user);
+
+        return Ok(user);
     }
 
-    // CRUD Endpoints for Users
-    [HttpGet("users")]
-    [Authorize] // Protect this endpoint
-    public async Task<ActionResult<IEnumerable<UserListDto>>> GetAllUsers()
+    [HttpPost("register")]
+    public async Task<IActionResult> Register([FromBody] RegisterDto dto)
+    {
+        var created = await _authService.RegisterAsync(dto);
+        if (!string.IsNullOrEmpty(created.Message))
+            return BadRequest(created);
+        return Ok(created);
+    }
+
+    [HttpGet("users"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> GetAllUsers()
     {
         var users = await _authService.GetAllUsersAsync();
         return Ok(users);
     }
 
-    [HttpGet("users/{id}")]
-    [Authorize] // Protect this endpoint
-    public async Task<ActionResult<UserDto>> GetUserById(string id)
+    [HttpGet("users/{id}"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> GetUser(string id)
     {
         var user = await _authService.GetUserByIdAsync(id);
-        if (user == null)
-        {
-            return NotFound(new { Message = $"User with ID {id} not found." });
-        }
+        if (user == null) return NotFound();
         return Ok(user);
     }
 
-    [HttpGet("users/byusername/{userName}")]
-    [Authorize] // Protect this endpoint
-    public async Task<ActionResult<UserDto>> GetUserByUserName(string userName)
+    [HttpPut("users/{id}"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> UpdateUser(string id, [FromBody] UpdateUserDto dto)
     {
-        var user = await _authService.GetUserByUserNameAsync(userName);
-        if (user == null)
-        {
-            return NotFound(new { Message = $"User with username {userName} not found." });
-        }
-        return Ok(user);
+        if (id != dto.Id) return BadRequest();
+        var updated = await _authService.UpdateUserAsync(dto);
+        if (updated == null) return NotFound();
+        return Ok(updated);
     }
 
-    // Removed: [HttpPost("users")] CreateUser endpoint
-
-    [HttpPut("users")]
-    [Authorize] // Protect this endpoint
-    public async Task<ActionResult<UserDto>> UpdateUser([FromBody] UpdateUserDto updateDto)
+    // Roles
+    [HttpPost("roles"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> CreateRole([FromBody] string role)
     {
-        try
-        {
-            var result = await _authService.UpdateUserAsync(updateDto);
-            if (result == null)
-            {
-                return NotFound(new { Message = $"User with ID {updateDto.Id} not found." });
-            }
-            return Ok(result);
-        }
-        catch (InvalidOperationException ex)
-        {
-            return BadRequest(new { Message = ex.Message });
-        }
+        var ok = await _authService.CreateRoleAsync(role);
+        if (!ok) return BadRequest();
+        return Ok();
     }
 
-    [HttpPatch("users/{id}/status")]
-    [Authorize] // Protect this endpoint
-    public async Task<IActionResult> SetUserActiveStatus(string id, [FromQuery] bool isActive)
+    [HttpGet("roles"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> GetRoles()
     {
-        var result = await _authService.SetUserActiveStatusAsync(id, isActive);
-        if (!result)
-        {
-            return NotFound(new { Message = $"User with ID {id} not found." });
-        }
-        return NoContent(); // 204 No Content
+        var roles = await _authService.GetAllRolesAsync();
+        return Ok(roles);
     }
 
-    // New temporary endpoint to force normalize UserName
-    [HttpPut("users/force-normalize-username/{userId}")]
-    [Authorize] // Protect this endpoint
-    public async Task<IActionResult> ForceNormalizeUserName(string userId)
+    [HttpPost("users/{id}/roles"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> AddRoleToUser(string id, [FromBody] string role)
     {
-        var result = await _authService.ForceNormalizeUserNameAsync(userId);
-        if (!result)
-        {
-            return BadRequest(new { Message = $"Failed to force normalize UserName for user ID '{userId}'. User might not exist or an error occurred." });
-        }
-        return Ok(new { Message = $"UserName and NormalizedUserName for user ID '{userId}' successfully re-normalized. Try logging in with the correct UserName." });
+        var ok = await _authService.AssignRoleToUserAsync(id, role);
+        if (!ok) return BadRequest();
+        return Ok();
+    }
+
+    [HttpDelete("users/{id}/roles/{role}"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> RemoveRoleFromUser(string id, string role)
+    {
+        var ok = await _authService.RemoveRoleFromUserAsync(id, role);
+        if (!ok) return BadRequest();
+        return Ok();
+    }
+
+    // Claims
+    [HttpPost("users/{id}/claims"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> AddClaimToUser(string id, [FromBody] ClaimDto claim)
+    {
+        var ok = await _authService.AddClaimToUserAsync(id, claim);
+        if (!ok) return BadRequest();
+        return Ok();
+    }
+
+    [HttpDelete("users/{id}/claims"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> RemoveClaimFromUser(string id, [FromBody] ClaimDto claim)
+    {
+        var ok = await _authService.RemoveClaimFromUserAsync(id, claim);
+        if (!ok) return BadRequest();
+        return Ok();
+    }
+
+    [HttpGet("users/{id}/claims"), Authorize(Roles = "Admin")]
+    public async Task<IActionResult> GetUserClaims(string id)
+    {
+        var claims = await _authService.GetUserClaimsAsync(id);
+        return Ok(claims);
+    }
+
+    // Refresh token endpoints
+    [HttpPost("users/{id}/refresh/generate"), Authorize]
+    public async Task<IActionResult> GenerateRefreshToken(string id)
+    {
+        // only allow user itself or admin to generate token
+        if (User.Identity?.Name != id && !User.IsInRole("Admin")) { /* you may adapt check */ }
+
+        var (token, expiry) = await _authService.GenerateAndStoreRefreshTokenAsync(id, TimeSpan.FromDays(7));
+        return Ok(new { RefreshToken = token, Expiry = expiry });
+    }
+
+    [HttpPost("refresh/validate")]
+    public async Task<IActionResult> ValidateRefresh([FromBody] RefreshValidateDto dto)
+    {
+        var ok = await _authService.ValidateRefreshTokenAsync(dto.UserId, dto.RefreshToken);
+        if (!ok) return Unauthorized();
+        return Ok();
+    }
+
+    [HttpPost("users/{id}/refresh/revoke"), Authorize]
+    public async Task<IActionResult> RevokeRefresh(string id)
+    {
+        var ok = await _authService.RevokeRefreshTokenAsync(id);
+        if (!ok) return BadRequest();
+        return Ok();
     }
 }
