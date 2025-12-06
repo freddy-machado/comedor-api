@@ -122,5 +122,9 @@ public static class ServiceExtensions
         services.AddScoped<IDespachoService, DespachoService>();
         services.AddScoped<ITurnoService, TurnoService>();
         services.AddScoped<IComensalService, ComensalService>();
+        services.AddScoped<PermissionService>();
+
+        // Registrar AutoMapper (apuntar al profile en Comedor.Infrastructure)
+        services.AddAutoMapper(typeof(Comedor.Infrastructure.Mappings.MappingProfile).Assembly);
     }
 }

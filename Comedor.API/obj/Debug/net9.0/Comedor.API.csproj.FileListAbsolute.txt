@@ -183,6 +183,7 @@ D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\refint\Come
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\Comedor.API.pdb
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\Comedor.API.genruntimeconfig.cache
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\ref\Comedor.API.dll
-D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\Comedor.API.sourcelink.json
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\bin\Debug\net9.0\appsettings.Production.json
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Debug\net9.0\swae.build.ex.cache

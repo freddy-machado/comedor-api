@@ -13,8 +13,12 @@ public class MappingProfile : Profile
         CreateMap<ApplicationUser, UserDto>();
         CreateMap<ApplicationUser, UserListDto>(); 
         CreateMap<RegisterDto, ApplicationUser>(); 
-        CreateMap<UpdateUserDto, ApplicationUser>(); 
-
+        CreateMap<ApplicationUser, UpdateUserDto>()
+            .ForMember(d => d.Id, o => o.MapFrom(s => s.Id))
+            .ForMember(d => d.UserName, o => o.MapFrom(s => s.UserName))
+            .ForMember(d => d.Email, o => o.MapFrom(s => s.Email))
+            .ForMember(d => d.PhoneNumber, o => o.MapFrom(s => s.PhoneNumber))
+            .ForMember(d => d.NormalizedUserName, o => o.MapFrom(s => s.NormalizedUserName));
         // Comensal Mappings
         CreateMap<Comensal, ComensalDto>().ReverseMap();
         CreateMap<ComensalCreateDto, Comensal>();
@@ -34,6 +38,10 @@ public class MappingProfile : Profile
         CreateMap<UpdateDespachoDto, Despacho>(); 
         
         // Turno Mappings
-        CreateMap<Turno, TurnoDto>(); // New mapping
+        CreateMap<Turno, TurnoDto>(); // New
+
+        CreateMap<ApplicationUser, UserDto>();
+        CreateMap<ApplicationUser, UserListDto>();
+        CreateMap<ApplicationUser, UpdateUserDto>();
     }
 }

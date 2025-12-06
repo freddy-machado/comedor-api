@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comedor.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18d3f6bf741caaf2f7191911ec822e4a2c862e9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51f338d5d906abe0d52b51fce5d2c86810fee38e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comedor.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comedor.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

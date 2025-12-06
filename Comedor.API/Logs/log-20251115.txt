@@ -1,0 +1,424 @@
+2025-11-15 09:24:05.141 -06:00 [INF] Starting web host
+2025-11-15 09:25:42.988 -06:00 [INF] HTTP GET /swagger responded 404 in 71.3484 ms
+2025-11-15 09:25:54.273 -06:00 [INF] HTTP GET /swagger/index.html responded 404 in 3.0074 ms
+2025-11-15 09:28:04.138 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 2.8933 ms
+2025-11-15 09:28:04.693 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 09:28:05.719 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 09:28:07.405 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 09:28:08.120 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 09:28:08.150 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3999.8873 ms
+2025-11-15 09:28:11.030 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.2666 ms
+2025-11-15 09:28:11.299 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 259.9065 ms
+2025-11-15 09:28:57.086 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 4.1898 ms
+2025-11-15 09:58:59.935 -06:00 [INF] Starting web host
+2025-11-15 10:19:52.564 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 4.4165 ms
+2025-11-15 10:19:53.186 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 10:19:54.064 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 10:19:55.171 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 10:19:55.761 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 10:19:55.785 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3183.8844 ms
+2025-11-15 10:20:00.069 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.5731 ms
+2025-11-15 10:20:00.311 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 232.0327 ms
+2025-11-15 10:20:02.023 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0859 ms
+2025-11-15 10:20:10.407 -06:00 [ERR] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 500 in 8377.8010 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ApplicationUser -> UpdateUserDto
+Comedor.Core.Entities.ApplicationUser -> Comedor.Core.Dtos.Auth.UpdateUserDto
+   at lambda_method321(Closure, Object, UpdateUserDto, ResolutionContext)
+   at Comedor.Infrastructure.Services.AuthService.GetUserByIdAsync(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 105
+   at Comedor.API.Controllers.AccountController.GetUser(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\AccountController.cs:line 119
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 10:20:10.440 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ApplicationUser -> UpdateUserDto
+Comedor.Core.Entities.ApplicationUser -> Comedor.Core.Dtos.Auth.UpdateUserDto
+   at lambda_method321(Closure, Object, UpdateUserDto, ResolutionContext)
+   at Comedor.Infrastructure.Services.AuthService.GetUserByIdAsync(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 105
+   at Comedor.API.Controllers.AccountController.GetUser(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\AccountController.cs:line 119
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-15 10:20:57.760 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.1231 ms
+2025-11-15 10:20:57.781 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 5.7809 ms
+2025-11-15 10:21:00.077 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0659 ms
+2025-11-15 10:21:40.611 -06:00 [ERR] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 500 in 40525.2064 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ApplicationUser -> UpdateUserDto
+Comedor.Core.Entities.ApplicationUser -> Comedor.Core.Dtos.Auth.UpdateUserDto
+   at lambda_method321(Closure, Object, UpdateUserDto, ResolutionContext)
+   at Comedor.Infrastructure.Services.AuthService.GetUserByIdAsync(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 105
+   at Comedor.API.Controllers.AccountController.GetUser(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\AccountController.cs:line 119
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-11-15 10:21:40.625 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ApplicationUser -> UpdateUserDto
+Comedor.Core.Entities.ApplicationUser -> Comedor.Core.Dtos.Auth.UpdateUserDto
+   at lambda_method321(Closure, Object, UpdateUserDto, ResolutionContext)
+   at Comedor.Infrastructure.Services.AuthService.GetUserByIdAsync(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 105
+   at Comedor.API.Controllers.AccountController.GetUser(String id) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Controllers\AccountController.cs:line 119
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-11-15 10:21:43.039 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0790 ms
+2025-11-15 10:21:43.052 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.7882 ms
+2025-11-15 10:21:44.331 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0788 ms
+2025-11-15 10:30:08.771 -06:00 [INF] Starting web host
+2025-11-15 10:31:02.379 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 4.7610 ms
+2025-11-15 10:31:02.881 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 10:31:03.585 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 10:31:05.072 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 10:31:05.774 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 10:31:05.834 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3422.6258 ms
+2025-11-15 10:31:08.682 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 1.0336 ms
+2025-11-15 10:31:08.901 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 208.2856 ms
+2025-11-15 10:31:10.438 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.1143 ms
+2025-11-15 10:31:19.170 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 8723.9185 ms
+2025-11-15 10:40:23.219 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.2733 ms
+2025-11-15 10:40:23.251 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 15.1738 ms
+2025-11-15 10:40:25.659 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0727 ms
+2025-11-15 10:41:44.520 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 78851.1973 ms
+2025-11-15 12:24:18.680 -06:00 [INF] HTTP OPTIONS /api/Account/refresh responded 204 in 0.2762 ms
+2025-11-15 12:24:18.812 -06:00 [INF] HTTP POST /api/Account/refresh responded 200 in 123.2580 ms
+2025-11-15 12:24:19.093 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0565 ms
+2025-11-15 12:24:19.104 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.5872 ms
+2025-11-15 16:54:46.314 -06:00 [INF] Starting web host
+2025-11-15 16:54:56.052 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 14.6402 ms
+2025-11-15 16:54:56.530 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 16:54:57.212 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 16:54:58.318 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 16:54:59.065 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 16:54:59.102 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3019.0472 ms
+2025-11-15 16:55:03.526 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.8094 ms
+2025-11-15 16:55:03.708 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 174.0022 ms
+2025-11-15 16:55:06.467 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.1903 ms
+2025-11-15 16:55:06.508 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 32.7510 ms
+2025-11-15 16:55:06.534 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0559 ms
+2025-11-15 16:55:06.560 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 19.1408 ms
+2025-11-15 16:55:06.653 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0626 ms
+2025-11-15 16:55:06.677 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 12.8879 ms
+2025-11-15 16:55:20.140 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0638 ms
+2025-11-15 16:55:20.151 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 2.9967 ms
+2025-11-15 16:59:16.784 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0872 ms
+2025-11-15 16:59:16.805 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 12.0971 ms
+2025-11-15 16:59:16.868 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0748 ms
+2025-11-15 16:59:16.889 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 9.3078 ms
+2025-11-15 16:59:16.921 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0786 ms
+2025-11-15 16:59:16.945 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 12.2350 ms
+2025-11-15 17:00:18.955 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.1715 ms
+2025-11-15 17:00:18.985 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 7.2017 ms
+2025-11-15 17:12:16.326 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.7010 ms
+2025-11-15 17:12:16.336 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 17:12:16.363 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 17:12:16.537 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 17:12:16.540 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 206.3431 ms
+2025-11-15 17:12:19.392 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0988 ms
+2025-11-15 17:12:19.404 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.6975 ms
+2025-11-15 17:12:21.011 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0583 ms
+2025-11-15 17:12:21.023 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 3.6280 ms
+2025-11-15 17:12:21.055 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0746 ms
+2025-11-15 17:12:21.072 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 6.2285 ms
+2025-11-15 17:12:21.124 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0735 ms
+2025-11-15 17:12:21.144 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 9.5121 ms
+2025-11-15 17:19:15.884 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.2488 ms
+2025-11-15 17:19:15.915 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 6.2173 ms
+2025-11-15 17:26:26.650 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0653 ms
+2025-11-15 17:26:26.666 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 17:26:26.691 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 17:26:26.825 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 17:26:26.828 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 162.2210 ms
+2025-11-15 17:26:29.493 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0476 ms
+2025-11-15 17:26:29.505 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.7333 ms
+2025-11-15 17:26:31.517 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0348 ms
+2025-11-15 17:26:31.530 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 4.1589 ms
+2025-11-15 17:26:31.554 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0269 ms
+2025-11-15 17:26:31.566 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 5.1479 ms
+2025-11-15 17:26:31.602 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0377 ms
+2025-11-15 17:26:31.617 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 7.2869 ms
+2025-11-15 17:26:39.331 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.1574 ms
+2025-11-15 17:26:39.430 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 17:26:39.451 -06:00 [INF] HTTP PUT /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 109.5141 ms
+2025-11-15 17:26:40.941 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0449 ms
+2025-11-15 17:26:40.954 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.3135 ms
+2025-11-15 17:26:43.125 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0442 ms
+2025-11-15 17:26:43.138 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 4.3633 ms
+2025-11-15 17:26:43.159 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 2.9372 ms
+2025-11-15 17:26:43.175 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0320 ms
+2025-11-15 17:26:43.185 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 3.4870 ms
+2025-11-15 17:26:51.976 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0608 ms
+2025-11-15 17:26:52.038 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 17:26:52.050 -06:00 [INF] HTTP PUT /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 61.7417 ms
+2025-11-15 17:26:53.121 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0342 ms
+2025-11-15 17:26:53.131 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 2.9890 ms
+2025-11-15 17:26:54.618 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0394 ms
+2025-11-15 17:26:54.629 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 2.3484 ms
+2025-11-15 17:26:54.682 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 35.6635 ms
+2025-11-15 17:26:54.698 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 204 in 0.0378 ms
+2025-11-15 17:26:54.708 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee/roles responded 200 in 3.1891 ms
+2025-11-15 17:26:59.335 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0526 ms
+2025-11-15 17:26:59.347 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.8505 ms
+2025-11-15 17:27:10.420 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0679 ms
+2025-11-15 17:27:10.437 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 4.0259 ms
+2025-11-15 17:27:56.302 -06:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0464 ms
+2025-11-15 17:27:56.516 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 17:27:56.579 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 17:27:56.625 -06:00 [INF] HTTP POST /api/Account/register responded 201 in 306.2255 ms
+2025-11-15 17:27:57.835 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0282 ms
+2025-11-15 17:27:57.852 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 5.0705 ms
+2025-11-15 17:28:03.747 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0327 ms
+2025-11-15 17:28:03.758 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 3.3674 ms
+2025-11-15 17:28:03.774 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 204 in 0.0260 ms
+2025-11-15 17:28:03.785 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 4.3812 ms
+2025-11-15 17:28:03.805 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 204 in 0.0253 ms
+2025-11-15 17:28:03.816 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 200 in 3.5759 ms
+2025-11-15 17:28:08.308 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0299 ms
+2025-11-15 17:28:08.317 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 1.6917 ms
+2025-11-15 17:28:16.546 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0408 ms
+2025-11-15 17:28:16.614 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 17:28:16.617 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 17:28:16.704 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 148.5349 ms
+2025-11-15 17:28:20.287 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0395 ms
+2025-11-15 17:28:20.297 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 1.9426 ms
+2025-11-15 18:40:31.761 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0435 ms
+2025-11-15 18:40:31.773 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 18:40:31.793 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 18:40:31.907 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 18:40:31.909 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 136.6355 ms
+2025-11-15 18:40:36.300 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0221 ms
+2025-11-15 18:40:36.311 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 2.7321 ms
+2025-11-15 19:04:12.422 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0554 ms
+2025-11-15 19:04:12.554 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 107.3457 ms
+2025-11-15 19:04:18.108 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0339 ms
+2025-11-15 19:04:19.174 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1053.5421 ms
+2025-11-15 19:04:21.920 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0273 ms
+2025-11-15 19:04:21.975 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 46.7367 ms
+2025-11-15 19:04:22.154 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.0375 ms
+2025-11-15 19:04:22.366 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 202.9001 ms
+2025-11-15 19:04:24.136 -06:00 [INF] HTTP OPTIONS /api/Despachos/918210 responded 204 in 0.0320 ms
+2025-11-15 19:04:24.171 -06:00 [INF] HTTP GET /api/Despachos/918210 responded 200 in 27.2640 ms
+2025-11-15 19:04:26.552 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0360 ms
+2025-11-15 19:04:27.041 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 474.9800 ms
+2025-11-15 19:04:28.293 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0242 ms
+2025-11-15 19:04:28.303 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 3.1134 ms
+2025-11-15 19:04:28.322 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.0403 ms
+2025-11-15 19:04:28.473 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 144.2007 ms
+2025-11-15 19:04:32.276 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0289 ms
+2025-11-15 19:04:32.662 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 376.6578 ms
+2025-11-15 19:45:14.875 -06:00 [INF] HTTP GET /api/Comensales responded 401 in 48.5384 ms
+2025-11-15 19:57:02.701 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0295 ms
+2025-11-15 19:57:02.718 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 19:57:02.759 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 19:57:02.883 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 19:57:02.885 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 169.0832 ms
+2025-11-15 19:58:52.849 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0327 ms
+2025-11-15 19:58:52.864 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 19:58:52.869 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 19:58:52.977 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 20:14:44.219 -06:00 [INF] Starting web host
+2025-11-15 20:15:40.917 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 7.5700 ms
+2025-11-15 20:15:41.677 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 20:15:42.416 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 20:15:43.658 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 20:15:44.660 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 20:15:48.340 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 7398.9147 ms
+2025-11-15 20:16:58.107 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 28.3182 ms
+2025-11-15 20:16:58.351 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 228.7056 ms
+2025-11-15 20:17:03.544 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0783 ms
+2025-11-15 20:17:03.634 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 20:17:03.638 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 20:17:03.721 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 169.1344 ms
+2025-11-15 20:17:04.388 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1081 ms
+2025-11-15 20:17:05.276 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 879.6700 ms
+2025-11-15 20:17:07.064 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0718 ms
+2025-11-15 20:17:07.191 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 117.9764 ms
+2025-11-15 20:17:07.338 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0792 ms
+2025-11-15 20:17:07.356 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 11.1512 ms
+2025-11-15 20:17:08.544 -06:00 [INF] HTTP OPTIONS /api/Despachos/status responded 204 in 0.0784 ms
+2025-11-15 20:17:08.742 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 188.6290 ms
+2025-11-15 20:17:08.845 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 68.4407 ms
+2025-11-15 20:17:09.866 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 14.2727 ms
+2025-11-15 20:17:09.946 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 61.0976 ms
+2025-11-15 20:17:10.818 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 7.8309 ms
+2025-11-15 20:17:10.898 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 58.5239 ms
+2025-11-15 20:17:11.797 -06:00 [INF] HTTP PUT /api/Despachos/status responded 200 in 14.7999 ms
+2025-11-15 20:17:11.876 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 55.8479 ms
+2025-11-15 20:17:13.716 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 6301.9279 ms
+2025-11-15 20:17:15.159 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.2260 ms
+2025-11-15 20:17:15.175 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 5.8531 ms
+2025-11-15 20:17:16.507 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.2870 ms
+2025-11-15 20:17:16.784 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 267.5397 ms
+2025-11-15 20:17:25.337 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.2450 ms
+2025-11-15 20:17:25.622 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0762 ms
+2025-11-15 20:17:25.743 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 396.9706 ms
+2025-11-15 20:17:25.817 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0426 ms
+2025-11-15 20:17:26.481 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 784.2987 ms
+2025-11-15 20:17:26.486 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 652.9320 ms
+2025-11-15 20:17:27.085 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 236.0550 ms
+2025-11-15 20:17:28.098 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 315.7262 ms
+2025-11-15 20:17:29.624 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0598 ms
+2025-11-15 20:17:29.883 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 251.4460 ms
+2025-11-15 20:17:40.952 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0421 ms
+2025-11-15 20:17:40.982 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 21.3076 ms
+2025-11-15 20:19:29.814 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0576 ms
+2025-11-15 20:19:29.851 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 15.7400 ms
+2025-11-15 20:20:14.174 -06:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 3.8108 ms
+2025-11-15 20:20:14.334 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:20:14.394 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:20:14.439 -06:00 [INF] HTTP POST /api/Account/register responded 201 in 258.1606 ms
+2025-11-15 20:20:15.796 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0403 ms
+2025-11-15 20:20:15.809 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.1956 ms
+2025-11-15 20:21:32.158 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0440 ms
+2025-11-15 20:21:32.178 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 3.8553 ms
+2025-11-15 20:21:32.200 -06:00 [INF] HTTP OPTIONS /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6 responded 204 in 0.0511 ms
+2025-11-15 20:21:32.230 -06:00 [INF] HTTP GET /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6 responded 200 in 21.9779 ms
+2025-11-15 20:21:32.261 -06:00 [INF] HTTP OPTIONS /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6/roles responded 204 in 0.0345 ms
+2025-11-15 20:21:32.283 -06:00 [INF] HTTP GET /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6/roles responded 200 in 13.0317 ms
+2025-11-15 20:21:38.466 -06:00 [INF] HTTP OPTIONS /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6 responded 204 in 0.0397 ms
+2025-11-15 20:21:38.502 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:21:38.539 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:21:38.558 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:21:38.569 -06:00 [INF] HTTP PUT /api/Account/users/e25b27a5-8944-458c-8bfa-91ee5d9a1fd6 responded 200 in 96.5146 ms
+2025-11-15 20:21:39.590 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0475 ms
+2025-11-15 20:21:39.607 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.8834 ms
+2025-11-15 20:21:52.477 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0339 ms
+2025-11-15 20:21:52.483 -06:00 [INF] Attempting login for user: comedor.despacho
+2025-11-15 20:21:52.489 -06:00 [INF] User 'comedor.despacho' found. IsActive: True
+2025-11-15 20:21:52.618 -06:00 [INF] Login successful for user: comedor.despacho
+2025-11-15 20:21:52.620 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 137.4377 ms
+2025-11-15 20:23:07.333 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0840 ms
+2025-11-15 20:23:07.342 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 20:23:07.348 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 20:23:07.468 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 20:23:07.471 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 130.1569 ms
+2025-11-15 20:23:10.636 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0496 ms
+2025-11-15 20:23:10.650 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.2326 ms
+2025-11-15 20:23:12.923 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0590 ms
+2025-11-15 20:23:12.938 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 4.0320 ms
+2025-11-15 20:23:12.957 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 204 in 0.0402 ms
+2025-11-15 20:23:12.969 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 4.4907 ms
+2025-11-15 20:23:12.987 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 204 in 0.0371 ms
+2025-11-15 20:23:13.000 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 200 in 5.9207 ms
+2025-11-15 20:23:22.150 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 204 in 1.0492 ms
+2025-11-15 20:23:22.190 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:23:22.207 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:23:22.220 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 20:23:22.229 -06:00 [INF] HTTP PUT /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 69.0388 ms
+2025-11-15 20:23:23.429 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0260 ms
+2025-11-15 20:23:23.442 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.9185 ms
+2025-11-15 23:10:25.320 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 23:15:35.641 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 23:35:55.038 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 23:35:56.938 -06:00 [INF] Starting web host
+2025-11-15 23:38:39.889 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 23:38:41.709 -06:00 [ERR] Error durante la siembra de datos.
+System.InvalidOperationException: The instance of entity type 'RoleMenuAction' cannot be tracked because another instance with the same key value for {'RoleId', 'MenuId', 'ActionId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, Nullable`1 fallbackState)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at Comedor.Infrastructure.Data.DataSeeder.<SeedAsync>g__AddIfNotExists|0_16(String roleId, Int32 menuId, Int32 actionId, <>c__DisplayClass0_0&) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Data\DataSeeder.cs:line 86
+   at Comedor.Infrastructure.Data.DataSeeder.SeedAsync(IServiceProvider services) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Data\DataSeeder.cs:line 111
+   at Program.<Main>$(String[] args) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\Program.cs:line 52
+2025-11-15 23:42:13.650 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-15 23:42:15.649 -06:00 [INF] Starting web host
+2025-11-15 23:48:19.821 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 6.6034 ms
+2025-11-15 23:48:20.312 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-15 23:48:20.469 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-15 23:48:20.918 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-15 23:48:20.974 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1100.7141 ms
+2025-11-15 23:48:25.225 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.7788 ms
+2025-11-15 23:48:25.580 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 345.1039 ms
+2025-11-15 23:48:25.725 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.1248 ms
+2025-11-15 23:48:25.756 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 20.1448 ms
+2025-11-15 23:48:27.249 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0715 ms
+2025-11-15 23:48:27.297 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1484.9580 ms
+2025-11-15 23:48:27.763 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 500.3577 ms
+2025-11-15 23:48:30.276 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0585 ms
+2025-11-15 23:48:30.329 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 23:48:30.334 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-15 23:48:30.361 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 75.0302 ms
+2025-11-15 23:48:32.865 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.1150 ms
+2025-11-15 23:48:32.935 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 58.4918 ms
+2025-11-15 23:48:39.309 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0995 ms
+2025-11-15 23:48:39.350 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 26.4011 ms
+2025-11-15 23:48:46.363 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.2398 ms
+2025-11-15 23:48:46.396 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 19.4002 ms
+2025-11-15 23:48:46.431 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 204 in 0.0565 ms
+2025-11-15 23:48:46.469 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 28.7539 ms
+2025-11-15 23:48:46.508 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 204 in 0.0673 ms
+2025-11-15 23:48:46.537 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 200 in 15.4694 ms
+2025-11-15 23:48:57.274 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 204 in 0.6201 ms
+2025-11-15 23:48:57.322 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 23:48:57.372 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 23:48:57.395 -06:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2025-11-15 23:48:57.406 -06:00 [INF] HTTP PUT /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 124.8210 ms
+2025-11-15 23:48:58.498 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0729 ms
+2025-11-15 23:48:58.514 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.5496 ms
+2025-11-15 23:49:00.708 -06:00 [INF] HTTP OPTIONS /api/Account/roles responded 204 in 0.0544 ms
+2025-11-15 23:49:00.725 -06:00 [INF] HTTP GET /api/Account/roles responded 200 in 4.0144 ms
+2025-11-15 23:49:00.748 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b responded 200 in 3.8655 ms
+2025-11-15 23:49:00.765 -06:00 [INF] HTTP OPTIONS /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 204 in 0.0451 ms
+2025-11-15 23:49:00.777 -06:00 [INF] HTTP GET /api/Account/users/4e9bfe19-9c49-45aa-aa5c-fe475432fd5b/roles responded 200 in 4.9365 ms

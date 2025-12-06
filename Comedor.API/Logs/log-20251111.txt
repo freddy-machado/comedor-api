@@ -1,0 +1,25 @@
+2025-11-11 20:17:43.861 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.3620 ms
+2025-11-11 20:17:44.102 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-11 20:17:44.420 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-11 20:17:44.734 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-11 20:17:44.747 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 796.2459 ms
+2025-11-11 20:18:04.953 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1240 ms
+2025-11-11 20:18:05.090 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 90.2167 ms
+2025-11-11 20:28:43.276 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.1783 ms
+2025-11-11 20:28:43.776 -06:00 [INF] HTTP GET /api/Areas responded 200 in 416.8391 ms
+2025-11-11 20:28:43.899 -06:00 [INF] HTTP OPTIONS /api/Comensales/4 responded 204 in 0.0652 ms
+2025-11-11 20:28:44.021 -06:00 [INF] HTTP GET /api/Comensales/4 responded 200 in 105.1055 ms
+2025-11-11 20:28:46.311 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0599 ms
+2025-11-11 20:28:46.351 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 20.0465 ms
+2025-11-11 20:29:24.292 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0683 ms
+2025-11-11 20:29:26.014 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1693.6470 ms
+2025-11-11 20:29:27.886 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0500 ms
+2025-11-11 20:29:27.922 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 17.8364 ms
+2025-11-11 20:29:55.385 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0431 ms
+2025-11-11 20:29:55.485 -06:00 [INF] HTTP GET /api/Areas responded 200 in 68.5942 ms
+2025-11-11 20:29:55.568 -06:00 [INF] HTTP OPTIONS /api/Comensales/2 responded 204 in 0.0785 ms
+2025-11-11 20:29:55.595 -06:00 [INF] HTTP GET /api/Comensales/2 responded 200 in 9.9248 ms
+2025-11-11 20:32:17.215 -06:00 [INF] HTTP OPTIONS /api/Comensales/upsert responded 204 in 0.0738 ms
+2025-11-11 20:32:17.522 -06:00 [INF] HTTP POST /api/Comensales/upsert responded 200 in 265.4243 ms
+2025-11-11 20:32:19.429 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0703 ms
+2025-11-11 20:32:19.485 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 34.2392 ms

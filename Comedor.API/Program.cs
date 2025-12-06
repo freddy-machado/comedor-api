@@ -1,7 +1,8 @@
 using Comedor.API.Extensions;
+using Comedor.Infrastructure.Data;
+using Comedor.Infrastructure.Hubs; // Added for DispatchHub
 using Microsoft.AspNetCore.Builder;
 using Serilog;
-using Comedor.Infrastructure.Hubs; // Added for DispatchHub
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +41,22 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comedor API v1");
         c.RoutePrefix = string.Empty; // sirve Swagger UI en la raíz (/) — útil en dev
     });
+}
+
+// Aplicar seed antes de arrancar la app
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        await DataSeeder.SeedAsync(services);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "Error durante la siembra de datos.");
+        throw;
+    }
 }
 
 app.UseRouting();

@@ -1,0 +1,62 @@
+2025-11-14 11:56:00.334 -06:00 [INF] Starting web host
+2025-11-14 11:56:11.813 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 7.5805 ms
+2025-11-14 11:56:12.931 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 11:56:14.426 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-14 11:56:16.345 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 11:56:17.058 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 11:56:17.096 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 5202.6830 ms
+2025-11-14 11:56:25.263 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.9586 ms
+2025-11-14 11:56:25.691 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 417.6119 ms
+2025-11-14 12:58:32.813 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1842 ms
+2025-11-14 12:58:32.849 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 12:58:32.893 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 12:58:33.081 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 12:58:33.083 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 256.5269 ms
+2025-11-14 12:58:39.151 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0750 ms
+2025-11-14 12:58:39.169 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 7.6485 ms
+2025-11-14 12:58:42.000 -06:00 [INF] HTTP OPTIONS /api/Account/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0792 ms
+2025-11-14 12:58:42.007 -06:00 [INF] HTTP GET /api/Account/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 404 in 0.6309 ms
+2025-11-14 14:48:47.034 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.2538 ms
+2025-11-14 14:48:47.046 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 14:48:47.079 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 14:48:47.272 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 14:48:47.275 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 232.6053 ms
+2025-11-14 14:48:50.709 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0853 ms
+2025-11-14 14:48:50.724 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 7.4193 ms
+2025-11-14 14:48:53.305 -06:00 [INF] HTTP OPTIONS /api/Account/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.1572 ms
+2025-11-14 14:48:53.315 -06:00 [INF] HTTP GET /api/Account/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 404 in 0.4251 ms
+2025-11-14 14:49:18.929 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.1456 ms
+2025-11-14 14:49:18.949 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 3.6736 ms
+2025-11-14 14:55:57.910 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0542 ms
+2025-11-14 14:55:57.926 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 14:55:57.952 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 14:55:58.137 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 14:55:58.140 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 215.0596 ms
+2025-11-14 14:56:01.719 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0722 ms
+2025-11-14 14:56:01.734 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.9342 ms
+2025-11-14 14:56:04.448 -06:00 [INF] HTTP OPTIONS /api/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.3554 ms
+2025-11-14 14:56:04.457 -06:00 [INF] HTTP GET /api/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 404 in 0.3984 ms
+2025-11-14 14:59:55.005 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0897 ms
+2025-11-14 14:59:55.028 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 7.3704 ms
+2025-11-14 15:03:54.202 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.3282 ms
+2025-11-14 15:03:54.224 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 15:03:54.231 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 15:03:54.434 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 15:03:54.438 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 213.9851 ms
+2025-11-14 15:03:57.481 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0761 ms
+2025-11-14 15:03:57.516 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 15.1132 ms
+2025-11-14 15:04:00.139 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.1260 ms
+2025-11-14 15:04:00.222 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 65.4131 ms
+2025-11-14 15:07:03.153 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0961 ms
+2025-11-14 15:07:03.174 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-14 15:07:03.181 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-14 15:07:03.365 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-14 15:07:03.368 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 194.9897 ms
+2025-11-14 15:07:05.999 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0533 ms
+2025-11-14 15:07:06.012 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 4.5133 ms
+2025-11-14 15:07:09.743 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0359 ms
+2025-11-14 15:07:09.761 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 8.0599 ms
+2025-11-14 15:08:38.414 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0571 ms
+2025-11-14 15:08:38.449 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 6.3280 ms
+2025-11-14 15:08:47.434 -06:00 [INF] HTTP OPTIONS /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 204 in 0.0417 ms
+2025-11-14 15:08:47.448 -06:00 [INF] HTTP GET /api/Account/users/e1fed1f2-c3d0-426b-9ddc-1c484d5d1dee responded 200 in 6.1288 ms

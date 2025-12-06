@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "Refresh",
+    "RelativePath": "api/Account/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Comedor.Core.Dtos.Auth.RefreshValidateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
     "Method": "ValidateRefresh",
     "RelativePath": "api/Account/refresh/validate",
     "HttpMethod": "POST",
@@ -56,8 +72,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "role",
-        "Type": "System.String",
+        "Name": "dto",
+        "Type": "Comedor.Core.Dtos.Auth.RoleDto",
         "IsRequired": true
       }
     ],
@@ -71,6 +87,43 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "AddClaimToRole",
+    "RelativePath": "api/Account/roles/{role}/claims",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "claim",
+        "Type": "Comedor.Core.Dtos.Auth.ClaimDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "GetRoleClaims",
+    "RelativePath": "api/Account/roles/{role}/claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -115,6 +168,22 @@
       {
         "Name": "dto",
         "Type": "Comedor.Core.Dtos.Auth.UpdateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "ActivateUser",
+    "RelativePath": "api/Account/users/{id}/activate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -180,6 +249,22 @@
   },
   {
     "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "DeactivateUser",
+    "RelativePath": "api/Account/users/{id}/deactivate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
     "Method": "GenerateRefreshToken",
     "RelativePath": "api/Account/users/{id}/refresh/generate",
     "HttpMethod": "POST",
@@ -224,7 +309,23 @@
         "IsRequired": true
       },
       {
-        "Name": "role",
+        "Name": "dto",
+        "Type": "Comedor.Core.Dtos.Auth.RoleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "GetUserRoles",
+    "RelativePath": "api/Account/users/{id}/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -247,6 +348,27 @@
       {
         "Name": "role",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.AccountController",
+    "Method": "AddRoleToUserByUserName",
+    "RelativePath": "api/Account/users/by-username/{userName}/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Comedor.Core.Dtos.Auth.RoleDto",
         "IsRequired": true
       }
     ],
@@ -524,6 +646,32 @@
       {
         "Name": "updateStatusDto",
         "Type": "Comedor.Core.Dtos.UpdateDespachoStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.PermissionsController",
+    "Method": "GetMyMenu",
+    "RelativePath": "api/Permissions/me/menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comedor.API.Controllers.PermissionsController",
+    "Method": "GetMenuForUser",
+    "RelativePath": "api/Permissions/user/{id}/menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],

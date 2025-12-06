@@ -1,22 +1,23 @@
-using Comedor.Core.Dtos.Auth;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Comedor.Core.Dtos.Auth;
 
 namespace Comedor.Core.Interfaces
 {
     public interface IAuthService
     {
         Task<UserDto> LoginAsync(LoginDto loginDto);
-        Task<UserDto> RegisterAsync(RegisterDto registerDto);
+        //Task<UserDto> RegisterAsync(RegisterDto registerDto);
 
         // CRUD methods for users
         Task<IEnumerable<UserListDto>> GetAllUsersAsync();
-        Task<UserDto?> GetUserByIdAsync(string id);
+        Task<UpdateUserDto?> GetUserByIdAsync(string id);
         Task<UserDto?> GetUserByUserNameAsync(string userName);
         Task<UserDto?> UpdateUserAsync(UpdateUserDto updateDto);
         Task<bool> SetUserActiveStatusAsync(string id, bool isActive);
         Task<bool> UpdateUserNameAndNormalizedUserNameAsync(string currentUserName, string newUserName);
-        Task<bool> ForceNormalizeUserNameAsync(string userId); // New method
+        Task<bool> ForceNormalizeUserNameAsync(string userId);
 
         // Roles & claims
         Task<bool> CreateRoleAsync(string roleName);
@@ -36,5 +37,10 @@ namespace Comedor.Core.Interfaces
         Task<(string RefreshToken, DateTime Expiry)> GenerateAndStoreRefreshTokenAsync(string userId, TimeSpan validity);
         Task<bool> ValidateRefreshTokenAsync(string userId, string refreshToken);
         Task<bool> RevokeRefreshTokenAsync(string userId);
+        Task<(string? Token, string? RefreshToken, DateTime? Expiry)> RefreshTokenAsync(string userId, string refreshToken, bool rotate = true);
+
+        // Nuevos métodos atómicos que crean/actualizan usuario y asignan roles en una transacción
+        Task<(bool Succeeded, string[] Errors, UserDto? User)> CreateUserWithRolesAsync(RegisterDto dto);
+        Task<(bool Succeeded, string[] Errors, UserDto? User)> UpdateUserWithRolesAsync(UpdateUserDto dto);
     }
 }

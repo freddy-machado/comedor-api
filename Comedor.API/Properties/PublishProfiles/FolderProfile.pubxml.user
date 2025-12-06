@@ -3,7 +3,7 @@
 <Project>
   <PropertyGroup>
     <_PublishTargetUrl>D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\bin\Release\net9.0\publish\</_PublishTargetUrl>
-    <History>True|2025-11-05T21:27:57.0166256Z||;True|2025-11-04T12:07:33.0876042-06:00||;True|2025-11-03T21:15:58.9564829-06:00||;</History>
+    <History>True|2025-11-17T06:01:33.2416625Z||;True|2025-11-15T23:50:27.2233491-06:00||;True|2025-11-05T15:27:57.0166256-06:00||;True|2025-11-04T12:07:33.0876042-06:00||;True|2025-11-03T21:15:58.9564829-06:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

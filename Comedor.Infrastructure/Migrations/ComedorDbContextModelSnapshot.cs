@@ -288,6 +288,78 @@ namespace Comedor.Infrastructure.Migrations
                     b.ToTable("CM_Log");
                 });
 
+            modelBuilder.Entity("Comedor.Core.Entities.Menu", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Href")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("Menus");
+                });
+
+            modelBuilder.Entity("Comedor.Core.Entities.MenuAction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Key")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("MenuActions");
+                });
+
+            modelBuilder.Entity("Comedor.Core.Entities.RoleMenuAction", b =>
+                {
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("MenuId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ActionId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RoleId", "MenuId", "ActionId");
+
+                    b.HasIndex("ActionId");
+
+                    b.HasIndex("MenuId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("RoleMenuActions");
+                });
+
             modelBuilder.Entity("Comedor.Core.Entities.Turno", b =>
                 {
                     b.Property<decimal>("Id")
@@ -471,6 +543,41 @@ namespace Comedor.Infrastructure.Migrations
                     b.Navigation("Turno");
                 });
 
+            modelBuilder.Entity("Comedor.Core.Entities.Menu", b =>
+                {
+                    b.HasOne("Comedor.Core.Entities.Menu", "Parent")
+                        .WithMany("Children")
+                        .HasForeignKey("ParentId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("Comedor.Core.Entities.RoleMenuAction", b =>
+                {
+                    b.HasOne("Comedor.Core.Entities.MenuAction", "Action")
+                        .WithMany("RoleMenuActions")
+                        .HasForeignKey("ActionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Comedor.Core.Entities.Menu", "Menu")
+                        .WithMany("RoleMenuActions")
+                        .HasForeignKey("MenuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Action");
+
+                    b.Navigation("Menu");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -520,6 +627,18 @@ namespace Comedor.Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Comedor.Core.Entities.Menu", b =>
+                {
+                    b.Navigation("Children");
+
+                    b.Navigation("RoleMenuActions");
+                });
+
+            modelBuilder.Entity("Comedor.Core.Entities.MenuAction", b =>
+                {
+                    b.Navigation("RoleMenuActions");
                 });
 #pragma warning restore 612, 618
         }

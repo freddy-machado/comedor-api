@@ -1,0 +1,58 @@
+2025-11-10 16:15:32.264 -06:00 [INF] Starting web host
+2025-11-10 16:25:39.162 -06:00 [INF] HTTP GET /swagger responded 404 in 90.8725 ms
+2025-11-10 16:28:42.794 -06:00 [INF] HTTP GET /api/Account/users responded 401 in 35.2303 ms
+2025-11-10 16:39:44.507 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 2.7503 ms
+2025-11-10 16:39:45.298 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-10 16:39:46.412 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-10 16:39:48.105 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-10 16:39:48.396 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-10 16:39:48.440 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 3921.0740 ms
+2025-11-10 16:42:12.028 -06:00 [INF] HTTP GET /api/Account/users responded 401 in 2.5366 ms
+2025-11-10 16:42:39.464 -06:00 [INF] HTTP GET /api/Areas responded 401 in 6.4660 ms
+2025-11-10 16:43:47.916 -06:00 [INF] HTTP GET /api/Account/users responded 401 in 0.2117 ms
+2025-11-10 16:44:17.955 -06:00 [INF] HTTP GET /api/Account/users responded 401 in 0.3339 ms
+2025-11-10 17:19:17.351 -06:00 [INF] Starting web host
+2025-11-10 18:05:38.952 -06:00 [INF] Starting web host
+2025-11-10 18:40:07.234 -06:00 [INF] Starting web host
+2025-11-10 18:47:49.286 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 8.1907 ms
+2025-11-10 18:47:50.474 -06:00 [INF] Attempting login for user: freddy.machado
+2025-11-10 18:47:52.358 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-11-10 18:47:55.139 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-11-10 18:47:55.779 -06:00 [INF] Login successful for user: freddy.machado
+2025-11-10 18:47:55.861 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 6504.0057 ms
+2025-11-10 18:49:01.974 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 1.2865 ms
+2025-11-10 18:49:05.153 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 3156.7861 ms
+2025-11-10 18:53:47.098 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 4.0844 ms
+2025-11-10 18:53:47.269 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 142.3042 ms
+2025-11-10 18:53:47.397 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.1148 ms
+2025-11-10 18:53:48.190 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 770.7269 ms
+2025-11-10 18:53:52.506 -06:00 [INF] HTTP OPTIONS /api/Despachos/918210 responded 204 in 0.1177 ms
+2025-11-10 18:53:52.634 -06:00 [INF] HTTP GET /api/Despachos/918210 responded 200 in 110.0095 ms
+2025-11-10 18:54:16.039 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 18.5288 ms
+2025-11-10 18:54:16.790 -06:00 [INF] HTTP GET /favicon.ico responded 404 in 0.5449 ms
+2025-11-10 18:55:10.326 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1004 ms
+2025-11-10 18:55:12.052 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1710.3682 ms
+2025-11-10 18:55:12.890 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.1873 ms
+2025-11-10 18:55:12.959 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-10 18:55:12.966 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-11-10 18:55:13.003 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 93.4079 ms
+2025-11-10 18:55:16.451 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1906 ms
+2025-11-10 18:55:17.590 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1123.0677 ms
+2025-11-10 18:55:19.715 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.1294 ms
+2025-11-10 18:55:19.740 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 8.0625 ms
+2025-11-10 18:55:19.770 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.1664 ms
+2025-11-10 18:55:20.164 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 379.3381 ms
+2025-11-10 18:55:24.337 -06:00 [INF] HTTP OPTIONS /api/Despachos/918210 responded 204 in 0.5697 ms
+2025-11-10 18:55:24.368 -06:00 [INF] HTTP GET /api/Despachos/918210 responded 200 in 10.0025 ms
+2025-11-10 18:55:29.845 -06:00 [INF] HTTP OPTIONS /api/Despachos responded 204 in 0.1082 ms
+2025-11-10 18:55:30.627 -06:00 [INF] HTTP PUT /api/Despachos responded 200 in 766.1558 ms
+2025-11-10 18:55:32.467 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0710 ms
+2025-11-10 18:55:33.314 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 833.2564 ms
+2025-11-10 18:55:36.206 -06:00 [INF] HTTP OPTIONS /api/Turnos responded 204 in 0.0714 ms
+2025-11-10 18:55:36.227 -06:00 [INF] HTTP GET /api/Turnos responded 200 in 4.1562 ms
+2025-11-10 18:55:36.257 -06:00 [INF] HTTP OPTIONS /api/Comensales/all-active responded 204 in 0.0815 ms
+2025-11-10 18:55:36.487 -06:00 [INF] HTTP GET /api/Comensales/all-active responded 200 in 209.8303 ms
+2025-11-10 18:55:40.738 -06:00 [INF] HTTP OPTIONS /api/Despachos/918210 responded 204 in 0.0898 ms
+2025-11-10 18:55:40.776 -06:00 [INF] HTTP GET /api/Despachos/918210 responded 200 in 6.8117 ms
+2025-11-10 18:55:44.975 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0930 ms
+2025-11-10 18:55:46.689 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1697.5305 ms
