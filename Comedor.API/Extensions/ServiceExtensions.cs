@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System;
 using System.Text;
 
 namespace Comedor.API.Extensions;
@@ -122,7 +123,9 @@ public static class ServiceExtensions
         services.AddScoped<IDespachoService, DespachoService>();
         services.AddScoped<ITurnoService, TurnoService>();
         services.AddScoped<IComensalService, ComensalService>();
-        services.AddScoped<PermissionService>();
+        services.AddScoped<PermissionService>();       
+        // o mejor:
+        // builder.Services.AddScoped<IPermissionService, PermissionService>();
 
         // Registrar AutoMapper (apuntar al profile en Comedor.Infrastructure)
         services.AddAutoMapper(typeof(Comedor.Infrastructure.Mappings.MappingProfile).Assembly);

@@ -1,0 +1,39 @@
+2025-12-06 19:45:09.312 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-06 19:45:12.264 -06:00 [INF] Starting web host
+2025-12-06 19:49:27.123 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 10.5160 ms
+2025-12-06 19:49:27.590 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-06 19:49:27.749 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-06 19:49:28.635 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-06 19:49:28.681 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1516.1270 ms
+2025-12-06 19:49:33.085 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.9870 ms
+2025-12-06 19:49:33.718 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 619.5722 ms
+2025-12-06 19:49:33.874 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0543 ms
+2025-12-06 19:49:33.893 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 11.7810 ms
+2025-12-06 19:54:12.024 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 278106.5222 ms
+2025-12-06 19:54:19.939 -06:00 [INF] HTTP OPTIONS /api/Verificacion/4412107790004l responded 204 in 0.0680 ms
+2025-12-06 19:54:20.192 -06:00 [INF] HTTP GET /api/Verificacion/4412107790004l responded 200 in 247.4762 ms
+2025-12-06 19:54:22.280 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0536 ms
+2025-12-06 19:54:22.506 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 216.3803 ms
+2025-12-06 19:54:22.529 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0833 ms
+2025-12-06 19:54:22.538 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 1.0267 ms
+2025-12-06 20:13:06.013 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1123529.4115 ms
+2025-12-06 20:27:14.002 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.0047 ms
+2025-12-06 20:27:14.051 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-06 20:27:14.084 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-06 20:27:14.235 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-06 20:27:14.237 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 227.8766 ms
+2025-12-06 20:27:18.006 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0577 ms
+2025-12-06 20:27:18.238 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 223.8106 ms
+2025-12-06 20:27:18.401 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0535 ms
+2025-12-06 20:27:18.409 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.4887 ms
+2025-12-06 20:33:09.382 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 350930.5121 ms
+2025-12-06 20:33:21.494 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0862 ms
+2025-12-06 20:33:21.513 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-06 20:33:21.520 -06:00 [WRN] User 'comedor.neptuno' not found by exact UserName match. Trying NormalizedUserName match...
+2025-12-06 20:33:21.534 -06:00 [WRN] User 'comedor.neptuno' not found by NormalizedUserName match either.
+2025-12-06 20:33:21.537 -06:00 [INF] HTTP POST /api/Account/login responded 401 in 35.5532 ms
+2025-12-06 20:40:58.685 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1247 ms
+2025-12-06 20:40:58.731 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-06 20:40:58.755 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-06 20:40:58.889 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-06 20:40:58.891 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 198.7722 ms

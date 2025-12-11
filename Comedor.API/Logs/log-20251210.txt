@@ -1,0 +1,145 @@
+2025-12-10 20:23:43.025 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-10 20:23:45.236 -06:00 [INF] Starting web host
+2025-12-10 20:27:45.315 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 7.5279 ms
+2025-12-10 20:27:45.740 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-10 20:27:45.906 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-10 20:27:46.769 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-10 20:27:46.822 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1463.8332 ms
+2025-12-10 20:27:56.792 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.5047 ms
+2025-12-10 20:27:57.594 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 790.2370 ms
+2025-12-10 20:27:57.765 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.1537 ms
+2025-12-10 20:27:57.791 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 18.5938 ms
+2025-12-10 20:28:01.998 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 4151.2082 ms
+2025-12-10 20:28:03.754 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0608 ms
+2025-12-10 20:28:04.597 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 835.1514 ms
+2025-12-10 20:28:05.979 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0588 ms
+2025-12-10 20:28:06.017 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-10 20:28:06.020 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-10 20:28:06.048 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 61.2407 ms
+2025-12-10 20:28:11.654 -06:00 [INF] HTTP OPTIONS /api/Account/users responded 204 in 0.0872 ms
+2025-12-10 20:28:11.700 -06:00 [INF] HTTP GET /api/Account/users responded 200 in 38.0171 ms
+2025-12-10 20:57:03.819 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0698 ms
+2025-12-10 20:57:03.848 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-10 20:57:03.904 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-10 20:57:04.070 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-10 20:57:04.073 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 242.8560 ms
+2025-12-10 21:18:53.114 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0560 ms
+2025-12-10 21:18:53.119 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:18:53.139 -06:00 [WRN] User 'comedor.neptuno' not found by exact UserName match. Trying NormalizedUserName match...
+2025-12-10 21:18:53.153 -06:00 [WRN] User 'comedor.neptuno' not found by NormalizedUserName match either.
+2025-12-10 21:18:53.157 -06:00 [INF] HTTP POST /api/Account/login responded 401 in 38.1789 ms
+2025-12-10 21:23:48.754 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0553 ms
+2025-12-10 21:23:48.768 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:23:48.775 -06:00 [WRN] User 'comedor.neptuno' not found by exact UserName match. Trying NormalizedUserName match...
+2025-12-10 21:23:48.779 -06:00 [WRN] User 'comedor.neptuno' not found by NormalizedUserName match either.
+2025-12-10 21:23:48.781 -06:00 [INF] HTTP POST /api/Account/login responded 401 in 13.7819 ms
+2025-12-10 21:25:46.837 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0719 ms
+2025-12-10 21:25:46.855 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:25:46.862 -06:00 [WRN] User 'comedor.neptuno' not found by exact UserName match. Trying NormalizedUserName match...
+2025-12-10 21:25:46.867 -06:00 [WRN] User 'comedor.neptuno' not found by NormalizedUserName match either.
+2025-12-10 21:25:46.868 -06:00 [INF] HTTP POST /api/Account/login responded 401 in 13.4175 ms
+2025-12-10 21:26:11.153 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0498 ms
+2025-12-10 21:26:21.500 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:26:21.528 -06:00 [WRN] User 'comedor.neptuno' not found by exact UserName match. Trying NormalizedUserName match...
+2025-12-10 21:26:21.535 -06:00 [WRN] User 'comedor.neptuno' not found by NormalizedUserName match either.
+2025-12-10 21:26:52.758 -06:00 [INF] HTTP POST /api/Account/login responded 401 in 41590.4514 ms
+2025-12-10 21:27:27.207 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0768 ms
+2025-12-10 21:27:37.757 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:28:20.334 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-10 21:28:21.936 -06:00 [INF] Starting web host
+2025-12-10 21:32:27.353 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.3834 ms
+2025-12-10 21:32:34.085 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:32:43.309 -06:00 [INF] User 'comedor.neptuno' found. IsActive: True
+2025-12-10 21:33:05.842 -06:00 [ERR] Failed to generate/store refresh token during login for user e52b72a1-4489-854c-8bfa-89ee5d8a1fd7
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 21:33:05.982 -06:00 [INF] Login successful for user: comedor.neptuno
+2025-12-10 21:33:21.137 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 53757.6915 ms
+2025-12-10 21:33:34.436 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.5148 ms
+2025-12-10 21:33:34.596 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-10 21:33:34.601 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-10 21:33:34.681 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 235.6497 ms
+2025-12-10 21:33:36.407 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0861 ms
+2025-12-10 21:33:36.954 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 536.8585 ms
+2025-12-10 21:33:37.106 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.0485 ms
+2025-12-10 21:33:37.201 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 88.0772 ms
+2025-12-10 21:33:37.323 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0527 ms
+2025-12-10 21:33:37.338 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 5.8028 ms
+2025-12-10 21:33:38.793 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1408.3844 ms
+2025-12-10 21:33:40.951 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 58.6257 ms
+2025-12-10 21:33:40.975 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 0.7199 ms
+2025-12-10 21:33:42.852 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.1812 ms
+2025-12-10 21:33:42.897 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 1906.8264 ms
+2025-12-10 21:33:43.163 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 268.8701 ms
+2025-12-10 21:33:43.802 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.0463 ms
+2025-12-10 21:33:43.818 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 6.8119 ms
+2025-12-10 21:34:01.978 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0881 ms
+2025-12-10 21:34:01.987 -06:00 [INF] Attempting login for user: comedor.despacho
+2025-12-10 21:34:01.996 -06:00 [INF] User 'comedor.despacho' found. IsActive: True
+2025-12-10 21:34:02.436 -06:00 [ERR] Failed to generate/store refresh token during login for user e25b27a5-8944-458c-8bfa-91ee5d9a1fd6
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 21:34:02.470 -06:00 [INF] Login successful for user: comedor.despacho
+2025-12-10 21:34:02.474 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 489.1543 ms
+2025-12-10 21:40:29.153 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0754 ms
+2025-12-10 21:40:29.168 -06:00 [INF] Attempting login for user: comedor.despacho
+2025-12-10 21:40:29.216 -06:00 [INF] User 'comedor.despacho' found. IsActive: True
+2025-12-10 21:40:29.724 -06:00 [ERR] Failed to generate/store refresh token during login for user e25b27a5-8944-458c-8bfa-91ee5d9a1fd6
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 21:40:29.771 -06:00 [INF] Login successful for user: comedor.despacho
+2025-12-10 21:40:29.774 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 614.6100 ms
+2025-12-10 21:40:48.110 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0497 ms
+2025-12-10 21:40:48.118 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 21:40:48.125 -06:00 [INF] User 'comedor.neptuno' found. IsActive: True
+2025-12-10 21:40:48.427 -06:00 [ERR] Failed to generate/store refresh token during login for user e52b72a1-4489-854c-8bfa-89ee5d8a1fd7
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 21:40:48.463 -06:00 [INF] Login successful for user: comedor.neptuno
+2025-12-10 21:40:48.466 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 349.5740 ms
+2025-12-10 21:41:04.503 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0540 ms
+2025-12-10 21:41:04.511 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-10 21:41:04.516 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-10 21:41:04.729 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-10 21:41:04.731 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 221.2205 ms
+2025-12-10 21:41:16.580 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.3288 ms
+2025-12-10 21:41:16.588 -06:00 [INF] Attempting login for user: carlos.averruz
+2025-12-10 21:41:16.592 -06:00 [INF] User 'carlos.averruz' found. IsActive: True
+2025-12-10 21:41:16.721 -06:00 [INF] Login successful for user: carlos.averruz
+2025-12-10 21:41:16.724 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 137.1373 ms
