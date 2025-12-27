@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comedor.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51f338d5d906abe0d52b51fce5d2c86810fee38e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0cc91f1625884d3943ff87108ef82fb6712f721")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comedor.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comedor.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

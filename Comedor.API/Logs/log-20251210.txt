@@ -143,3 +143,56 @@ System.InvalidOperationException: Sequence contains more than one element.
 2025-12-10 21:41:16.592 -06:00 [INF] User 'carlos.averruz' found. IsActive: True
 2025-12-10 21:41:16.721 -06:00 [INF] Login successful for user: carlos.averruz
 2025-12-10 21:41:16.724 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 137.1373 ms
+2025-12-10 22:03:43.159 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-10 22:03:45.169 -06:00 [INF] Starting web host
+2025-12-10 22:05:21.139 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 4.7946 ms
+2025-12-10 22:05:21.446 -06:00 [INF] Attempting login for user: comedor.despacho
+2025-12-10 22:05:21.556 -06:00 [INF] User 'comedor.despacho' found. IsActive: True
+2025-12-10 22:05:22.257 -06:00 [ERR] Failed to generate/store refresh token during login for user e25b27a5-8944-458c-8bfa-91ee5d9a1fd6
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 22:05:22.397 -06:00 [INF] Login successful for user: comedor.despacho
+2025-12-10 22:05:22.432 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1266.3306 ms
+2025-12-10 22:05:34.117 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.4812 ms
+2025-12-10 22:05:34.140 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 22:05:34.157 -06:00 [INF] User 'comedor.neptuno' found. IsActive: True
+2025-12-10 22:05:34.546 -06:00 [ERR] Failed to generate/store refresh token during login for user e52b72a1-4489-854c-8bfa-89ee5d8a1fd7
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 22:05:34.599 -06:00 [INF] Login successful for user: comedor.neptuno
+2025-12-10 22:05:34.603 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 477.7439 ms
+2025-12-10 22:08:56.261 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0518 ms
+2025-12-10 22:08:56.290 -06:00 [INF] Attempting login for user: comedor.neptuno
+2025-12-10 22:08:56.297 -06:00 [INF] User 'comedor.neptuno' found. IsActive: True
+2025-12-10 22:08:56.707 -06:00 [ERR] Failed to generate/store refresh token during login for user e52b72a1-4489-854c-8bfa-89ee5d8a1fd7
+System.InvalidOperationException: Sequence contains more than one element.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByEmailAsync(String email)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateEmail(UserManager`1 manager, TUser user, List`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.UpdateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.SetAuthenticationTokenAsync(TUser user, String loginProvider, String tokenName, String tokenValue)
+   at Comedor.Infrastructure.Services.AuthService.GenerateAndStoreRefreshTokenAsync(String userId, TimeSpan validity) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 342
+   at Comedor.Infrastructure.Services.AuthService.LoginAsync(LoginDto loginDto) in D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.Infrastructure\Services\AuthService.cs:line 100
+2025-12-10 22:08:56.748 -06:00 [INF] Login successful for user: comedor.neptuno
+2025-12-10 22:08:56.752 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 478.4839 ms

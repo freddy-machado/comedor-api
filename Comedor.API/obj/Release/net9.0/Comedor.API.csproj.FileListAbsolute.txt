@@ -186,3 +186,4 @@ D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Release\net9.0\Comedor.A
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Release\net9.0\Comedor.API.genruntimeconfig.cache
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Release\net9.0\ref\Comedor.API.dll
 D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\bin\Release\net9.0\appsettings.Production.json
+D:\HEMCO\DESARROLLO WEB\Comedor Web\API\Comedor.API\obj\Release\net9.0\swae.build.ex.cache

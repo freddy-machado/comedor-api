@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comedor.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad5b3a253a338fb325e4d3426e83fd4256e3c0b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0cc91f1625884d3943ff87108ef82fb6712f721")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comedor.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comedor.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

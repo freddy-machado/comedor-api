@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|solutionrelative:comedor.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78ABBBB0-6A89-4C35-B377-5F52331CA713}|Comedor.API\\Comedor.API.csproj|solutionrelative:comedor.api\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD02A7AD-56EA-456B-BE44-9696067EDAD8}|Comedor.Infrastructure\\Comedor.Infrastructure.csproj|solutionrelative:comedor.infrastructure\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5816DB5E-B7D0-44C6-B3A3-9E76063E951E}|Comedor.Core\\Comedor.Core.csproj|d:\\hemco\\desarrollo web\\comedor web\\api\\comedor.core\\dtos\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +50,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Comedor.API\\appsettings.Production.json",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\appsettings.Production.json",
+              "RelativeToolTip": "Comedor.API\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-12T15:54:38.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PermissionsController.cs",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\PermissionsController.cs",
               "RelativeDocumentMoniker": "Comedor.API\\Controllers\\PermissionsController.cs",
               "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\PermissionsController.cs",
               "RelativeToolTip": "Comedor.API\\Controllers\\PermissionsController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T02:55:36.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Core\\Dtos\\Auth\\UserDto.cs",
               "RelativeDocumentMoniker": "Comedor.Core\\Dtos\\Auth\\UserDto.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Comedor.Core\\Dtos\\Auth\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T03:42:22.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T03:42:22.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "Comedor.Infrastructure\\Services\\AuthService.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Services\\AuthService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAMwC8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T15:07:21.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-18T15:07:21.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Comedor.API.csproj",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Comedor.API.csproj",
               "RelativeDocumentMoniker": "Comedor.API\\Comedor.API.csproj",
@@ -97,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PermissionService.cs",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.Infrastructure\\Services\\PermissionService.cs",
               "RelativeDocumentMoniker": "Comedor.Infrastructure\\Services\\PermissionService.cs",
@@ -109,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor Web\\API\\Comedor.API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Comedor.API\\Controllers\\AccountController.cs",
