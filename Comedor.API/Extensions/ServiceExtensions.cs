@@ -123,7 +123,9 @@ public static class ServiceExtensions
         services.AddScoped<IDespachoService, DespachoService>();
         services.AddScoped<ITurnoService, TurnoService>();
         services.AddScoped<IComensalService, ComensalService>();
-        services.AddScoped<PermissionService>();       
+        services.AddScoped<PermissionService>();
+        services.AddScoped<IReportesService, ReportesService>();
+
         // o mejor:
         // builder.Services.AddScoped<IPermissionService, PermissionService>();
 

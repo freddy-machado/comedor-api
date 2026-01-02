@@ -1,7 +1,9 @@
 using AutoMapper;
 using Comedor.Core.Dtos;
 using Comedor.Core.Dtos.Auth;
+using Comedor.Core.Dtos.Report;
 using Comedor.Core.Entities;
+using Comedor.Core.Entities.Custom;
 
 namespace Comedor.Infrastructure.Mappings;
 
@@ -39,9 +41,10 @@ public class MappingProfile : Profile
         
         // Turno Mappings
         CreateMap<Turno, TurnoDto>(); // New
-
         CreateMap<ApplicationUser, UserDto>();
         CreateMap<ApplicationUser, UserListDto>();
         CreateMap<ApplicationUser, UpdateUserDto>();
+
+        CreateMap<DespachoReport, DespachoReportDto>();
     }
 }

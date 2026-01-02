@@ -16,6 +16,7 @@ public class UnitOfWork : IUnitOfWork
     public IGenericRepository<Turno> Turnos { get; private set; }
     public IDespachoRepository Despachos { get; private set; }
     public IGenericRepository<Log> Logs { get; private set; }
+    public IReportesRepository Reportes { get; private set; }
 
     public UnitOfWork(ComedorDbContext context)
     {
@@ -24,6 +25,7 @@ public class UnitOfWork : IUnitOfWork
         Turnos = new GenericRepository<Turno>(_context);
         Despachos = new DespachoRepository(_context);
         Logs = new GenericRepository<Log>(_context);
+        Reportes = new ReportesRepository(_context);
     }
 
     public async Task<int> SaveAsync()

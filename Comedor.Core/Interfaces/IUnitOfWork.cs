@@ -8,6 +8,7 @@ public interface IUnitOfWork : IDisposable
     IGenericRepository<Turno> Turnos { get; }
     IDespachoRepository Despachos { get; }
     IGenericRepository<Log> Logs { get; }
+    IReportesRepository Reportes { get; }
 
     Task<int> SaveAsync();
 }

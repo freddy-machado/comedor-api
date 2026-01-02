@@ -1,0 +1,54 @@
+2026-01-02 10:21:04.000 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2026-01-02 10:21:04.936 -06:00 [INF] Starting web host
+2026-01-02 11:49:24.942 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 46.8803 ms
+2026-01-02 11:49:25.485 -06:00 [INF] Attempting login for user: freddy.machado
+2026-01-02 11:49:25.709 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2026-01-02 11:49:26.623 -06:00 [INF] Login successful for user: freddy.machado
+2026-01-02 11:49:26.670 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1692.9436 ms
+2026-01-02 11:49:44.903 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.6249 ms
+2026-01-02 11:49:45.738 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 826.7041 ms
+2026-01-02 11:49:45.777 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1442 ms
+2026-01-02 11:49:45.937 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 153.6507 ms
+2026-01-02 11:53:54.808 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0605 ms
+2026-01-02 11:53:54.944 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 121.7294 ms
+2026-01-02 11:53:54.973 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0394 ms
+2026-01-02 11:53:55.135 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 158.2884 ms
+2026-01-02 11:55:46.618 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0660 ms
+2026-01-02 11:55:46.678 -06:00 [INF] Attempting login for user: freddy.machado
+2026-01-02 11:55:46.695 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2026-01-02 11:55:46.897 -06:00 [INF] Login successful for user: freddy.machado
+2026-01-02 11:55:46.900 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 268.5175 ms
+2026-01-02 11:56:00.367 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0596 ms
+2026-01-02 11:56:00.492 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 118.9928 ms
+2026-01-02 11:56:00.501 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0339 ms
+2026-01-02 11:56:00.616 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 111.5303 ms
+2026-01-02 11:56:10.478 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0604 ms
+2026-01-02 11:56:10.599 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 113.6308 ms
+2026-01-02 11:56:10.611 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0363 ms
+2026-01-02 11:56:10.753 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 135.9415 ms
+2026-01-02 12:17:00.073 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0793 ms
+2026-01-02 12:17:00.110 -06:00 [INF] Attempting login for user: freddy.machado
+2026-01-02 12:17:00.164 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2026-01-02 12:17:00.433 -06:00 [INF] Login successful for user: freddy.machado
+2026-01-02 12:17:00.437 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 337.5437 ms
+2026-01-02 12:17:08.902 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.2192 ms
+2026-01-02 12:17:09.010 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 101.6481 ms
+2026-01-02 12:17:09.045 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0459 ms
+2026-01-02 12:17:09.150 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 99.5751 ms
+2026-01-02 12:22:30.929 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0637 ms
+2026-01-02 12:22:30.948 -06:00 [INF] Attempting login for user: freddy.machado
+2026-01-02 12:22:30.954 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2026-01-02 12:22:31.235 -06:00 [INF] Login successful for user: freddy.machado
+2026-01-02 12:22:31.238 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 290.6711 ms
+2026-01-02 12:22:37.785 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0478 ms
+2026-01-02 12:22:37.949 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 157.3043 ms
+2026-01-02 12:22:37.981 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0719 ms
+2026-01-02 12:22:38.108 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 121.0403 ms
+2026-01-02 12:23:31.034 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0786 ms
+2026-01-02 12:23:31.176 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 130.5361 ms
+2026-01-02 12:24:29.226 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0422 ms
+2026-01-02 12:24:29.343 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 106.2153 ms
+2026-01-02 12:24:29.391 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0285 ms
+2026-01-02 12:24:29.504 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 106.0844 ms
+2026-01-02 12:24:57.329 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0346 ms
+2026-01-02 12:24:57.438 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 99.0151 ms

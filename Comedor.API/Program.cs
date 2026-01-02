@@ -39,7 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Comedor API v1");
-        c.RoutePrefix = string.Empty; // sirve Swagger UI en la raíz (/) — útil en dev
+        c.RoutePrefix = "swagger"; //string.Empty; // sirve Swagger UI en la raíz (/) — útil en dev
     });
 }
 

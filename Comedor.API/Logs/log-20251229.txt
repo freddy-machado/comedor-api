@@ -1,0 +1,450 @@
+2025-12-29 12:17:30.222 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:17:31.231 -06:00 [INF] Starting web host
+2025-12-29 12:26:05.311 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:26:06.115 -06:00 [INF] Starting web host
+2025-12-29 12:27:38.345 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 47.2298 ms
+2025-12-29 12:28:32.226 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 6.3611 ms
+2025-12-29 12:29:26.535 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 7.5460 ms
+2025-12-29 12:43:02.142 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 12:43:02.254 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 12:43:02.854 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 12:43:02.873 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 856.4483 ms
+2025-12-29 12:43:44.437 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 0.2181 ms
+2025-12-29 12:43:56.406 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 0.3751 ms
+2025-12-29 12:45:19.118 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:45:19.926 -06:00 [INF] Starting web host
+2025-12-29 12:45:41.317 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 12:45:41.391 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 12:45:41.739 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 12:45:41.762 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 609.6176 ms
+2025-12-29 12:47:05.487 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 9.1573 ms
+2025-12-29 12:48:41.387 -06:00 [INF] HTTP GET /api/Comensales responded 401 in 10.1355 ms
+2025-12-29 12:49:18.520 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-29 12:49:18.569 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2025-12-29 12:49:18.798 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 572.8454 ms
+2025-12-29 12:49:38.173 -06:00 [ERR] Failed executing DbCommand (16ms) [Parameters=[p0='?' (Size = 4000), p1='?' (Size = 4000), p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+EXEC @p0 @FechaInicio=@p1, @FechaFin=@p2
+2025-12-29 12:49:38.197 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_DespachosComedor' expects parameter '@fechaInicial', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:808f8924-6ca3-4271-aca3-344f48bf8735
+Error Number:201,State:4,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_DespachosComedor' expects parameter '@fechaInicial', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:808f8924-6ca3-4271-aca3-344f48bf8735
+Error Number:201,State:4,Class:16
+2025-12-29 12:50:01.085 -06:00 [ERR] HTTP GET /api/Reportes/despachos responded 500 in 33297.4621 ms
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_DespachosComedor' expects parameter '@fechaInicial', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Comedor.Infrastructure.Repositories.ReportesRepository.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Repositories\ReportesRepository.cs:line 34
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Services\ReportesService.cs:line 25
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+ClientConnectionId:808f8924-6ca3-4271-aca3-344f48bf8735
+Error Number:201,State:4,Class:16
+2025-12-29 12:50:01.104 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Procedure or function 'sp_DespachosComedor' expects parameter '@fechaInicial', which was not supplied.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Comedor.Infrastructure.Repositories.ReportesRepository.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Repositories\ReportesRepository.cs:line 34
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Services\ReportesService.cs:line 25
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+ClientConnectionId:808f8924-6ca3-4271-aca3-344f48bf8735
+Error Number:201,State:4,Class:16
+2025-12-29 12:52:08.595 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:52:09.418 -06:00 [INF] Starting web host
+2025-12-29 12:52:37.455 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 12:52:37.524 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 12:52:37.871 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 12:52:37.906 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 626.4761 ms
+2025-12-29 12:53:15.219 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.InvalidOperationException: The required column 'Origen' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidOperationException: The required column 'Origen' was not present in the results of a 'FromSql' operation.
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.BuildIndexMap(IReadOnlyList`1 columnNames, DbDataReader dataReader)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 12:53:58.469 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:53:59.288 -06:00 [INF] Starting web host
+2025-12-29 12:54:40.418 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 12:54:40.483 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 12:54:40.838 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 12:54:40.855 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 610.0523 ms
+2025-12-29 12:55:19.466 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.DateTime' to type 'System.DateOnly'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.DateTime' to type 'System.DateOnly'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateOnly()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 12:55:55.079 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:55:55.853 -06:00 [INF] Starting web host
+2025-12-29 12:56:25.040 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.TimeOnly'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method363(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.TimeOnly'.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueFromSqlBufferInternal[T](SqlBuffer data, _SqlMetaData metaData, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValueInternal[T](Int32 i, Boolean isAsync)
+   at Microsoft.Data.SqlClient.SqlDataReader.GetFieldValue[T](Int32 i)
+   at lambda_method363(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 12:57:23.037 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 12:57:23.990 -06:00 [INF] Starting web host
+2025-12-29 13:04:07.651 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 401 in 59.0120 ms
+2025-12-29 13:04:28.715 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 13:04:28.843 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 13:04:29.182 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 13:04:29.201 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 606.1684 ms
+2025-12-29 13:04:57.258 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 13:06:22.503 -06:00 [ERR] HTTP GET /api/Reportes/despachos responded 500 in 85620.9386 ms
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Comedor.Infrastructure.Repositories.ReportesRepository.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Repositories\ReportesRepository.cs:line 34
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Services\ReportesService.cs:line 25
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-12-29 13:06:22.521 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlBuffer.ThrowIfNull()
+   at Microsoft.Data.SqlClient.SqlBuffer.get_String()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Comedor.Infrastructure.Repositories.ReportesRepository.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Repositories\ReportesRepository.cs:line 34
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.Infrastructure\Services\ReportesService.cs:line 25
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 22
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-29 13:07:01.216 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method649(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method649(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.Enumerator.MoveNext()
+2025-12-29 13:11:02.864 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.Data.SqlTypes.SqlNullValueException: Data is Null. This method or property cannot be called on Null values.
+   at Microsoft.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   at lambda_method639(Closure, QueryContext, DbDataReader, Int32[])
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2025-12-29 13:13:38.732 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 13:13:39.539 -06:00 [INF] Starting web host
+2025-12-29 13:14:09.486 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 13:14:09.565 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 13:14:09.915 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 13:14:09.934 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 593.4373 ms
+2025-12-29 13:14:51.648 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 546.3263 ms
+2025-12-29 13:15:34.992 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 1.0908 ms
+2025-12-29 13:15:35.005 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 13:15:35.016 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 13:15:35.142 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 13:15:35.144 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 145.5301 ms
+2025-12-29 13:16:16.304 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1123 ms
+2025-12-29 13:16:16.604 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 292.4424 ms
+2025-12-29 13:17:05.869 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0539 ms
+2025-12-29 13:17:06.410 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 523.8281 ms
+2025-12-29 13:17:35.969 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0609 ms
+2025-12-29 13:17:53.081 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 17107.2741 ms
+2025-12-29 13:19:03.568 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0615 ms
+2025-12-29 13:19:04.006 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 429.5925 ms
+2025-12-29 13:19:11.743 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0518 ms
+2025-12-29 13:19:11.909 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 153.5298 ms
+2025-12-29 13:22:32.315 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0558 ms
+2025-12-29 13:22:32.857 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 533.4129 ms
+2025-12-29 13:22:46.160 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0418 ms
+2025-12-29 13:22:46.253 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 84.5010 ms
+2025-12-29 13:23:32.995 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0560 ms
+2025-12-29 13:23:57.601 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 24600.4515 ms
+2025-12-29 13:27:05.683 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 13:27:06.493 -06:00 [INF] Starting web host
+2025-12-29 13:30:40.245 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 2.2939 ms
+2025-12-29 13:30:40.997 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 734.5111 ms
+2025-12-29 15:01:29.465 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 15:01:30.439 -06:00 [INF] Starting web host
+2025-12-29 15:02:15.816 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 21.8432 ms
+2025-12-29 15:02:16.381 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 15:02:16.599 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 15:02:17.745 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 15:02:17.797 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1937.2749 ms
+2025-12-29 15:02:30.551 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.6278 ms
+2025-12-29 15:02:31.312 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 748.8070 ms
+2025-12-29 15:23:43.979 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.1017 ms
+2025-12-29 15:23:44.058 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 15:23:44.131 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 15:23:44.470 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 15:23:44.475 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 479.2662 ms
+2025-12-29 15:23:55.814 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0787 ms
+2025-12-29 15:23:56.373 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 551.0284 ms
+2025-12-29 16:14:25.703 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 16:14:28.765 -06:00 [INF] Starting web host
+2025-12-29 16:23:23.312 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 19.1423 ms
+2025-12-29 16:23:23.914 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 16:23:24.213 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 16:23:25.340 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 16:23:25.385 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2037.7752 ms
+2025-12-29 16:23:33.221 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.8333 ms
+2025-12-29 16:23:41.451 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 8213.1540 ms
+2025-12-29 16:23:53.639 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0846 ms
+2025-12-29 16:23:56.350 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 2702.5014 ms
+2025-12-29 16:24:01.863 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0770 ms
+2025-12-29 16:24:02.112 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 235.6722 ms
+2025-12-29 16:40:10.964 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 0.0788 ms
+2025-12-29 16:40:10.986 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 16:40:11.095 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 16:40:11.466 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 16:40:11.471 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 488.2113 ms
+2025-12-29 16:40:24.428 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1452 ms
+2025-12-29 16:40:24.953 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 499.6273 ms
+2025-12-29 17:26:01.738 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0756 ms
+2025-12-29 17:26:04.455 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 2373.2924 ms
+2025-12-29 17:26:29.266 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 17:26:31.832 -06:00 [INF] Starting web host
+2025-12-29 17:29:34.708 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 19.1145 ms
+2025-12-29 17:29:35.267 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 17:29:35.544 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 17:29:36.731 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 17:29:36.791 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2042.1904 ms
+2025-12-29 17:29:46.047 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.8375 ms
+2025-12-29 17:29:46.741 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 680.6142 ms
+2025-12-29 17:30:11.315 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1266 ms
+2025-12-29 17:31:13.864 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 62532.4013 ms
+2025-12-29 17:31:55.919 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1345 ms
+2025-12-29 17:32:07.317 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 11369.6237 ms
+2025-12-29 18:04:37.839 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 18:04:40.215 -06:00 [INF] Starting web host
+2025-12-29 18:04:49.124 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 3.8947 ms
+2025-12-29 18:04:49.747 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 18:04:50.018 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 18:04:51.179 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 18:04:51.236 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 2085.9136 ms
+2025-12-29 18:05:02.614 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.8859 ms
+2025-12-29 18:05:44.662 -06:00 [ERR] HTTP GET /api/Reportes/despachos responded 500 in 42035.4958 ms
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ValueTuple`2 -> IEnumerable`1
+System.ValueTuple`2[[System.Collections.Generic.IEnumerable`1[[Comedor.Core.Entities.Custom.DespachoReport, Comedor.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[Comedor.Core.Dtos.Report.DespachoReportDto, Comedor.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method640(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin, String search, Int32 page, Int32 pageSize)
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin, String search, Int32 page, Int32 pageSize) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-12-29 18:05:44.753 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+ValueTuple`2 -> IEnumerable`1
+System.ValueTuple`2[[System.Collections.Generic.IEnumerable`1[[Comedor.Core.Entities.Custom.DespachoReport, Comedor.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]] -> System.Collections.Generic.IEnumerable`1[[Comedor.Core.Dtos.Report.DespachoReportDto, Comedor.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method640(Closure, Object, IEnumerable`1, ResolutionContext)
+   at Comedor.Infrastructure.Services.ReportesService.GetDespachosReportAsync(DateTime fechaInicio, DateTime fechaFin, String search, Int32 page, Int32 pageSize)
+   at Comedor.API.Controllers.ReportesController.GetDespachosReport(DateTime fechaInicio, DateTime fechaFin, String search, Int32 page, Int32 pageSize) in D:\HEMCO\DESARROLLO WEB\Comedor\comedor-api\Comedor.API\Controllers\ReportesController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-29 18:06:03.796 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2025-12-29 18:06:06.084 -06:00 [INF] Starting web host
+2025-12-29 18:07:17.477 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 6.4018 ms
+2025-12-29 18:07:18.015 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 18:07:18.228 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 18:07:19.206 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 18:07:19.268 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1752.5999 ms
+2025-12-29 18:07:28.088 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.9145 ms
+2025-12-29 18:07:28.882 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 782.3512 ms
+2025-12-29 18:07:31.888 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1040 ms
+2025-12-29 18:07:32.056 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 156.8856 ms
+2025-12-29 18:07:33.367 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0743 ms
+2025-12-29 18:07:33.485 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 104.1979 ms
+2025-12-29 18:07:34.499 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0911 ms
+2025-12-29 18:07:34.600 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 87.3803 ms
+2025-12-29 18:07:36.478 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1436 ms
+2025-12-29 18:07:36.609 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 121.4640 ms
+2025-12-29 18:07:37.558 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0786 ms
+2025-12-29 18:07:37.681 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 112.5546 ms
+2025-12-29 18:07:39.794 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0853 ms
+2025-12-29 18:07:39.904 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 100.1751 ms
+2025-12-29 18:07:43.226 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0555 ms
+2025-12-29 18:07:43.364 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 117.6490 ms
+2025-12-29 18:07:54.802 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0962 ms
+2025-12-29 18:07:54.917 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 102.7071 ms
+2025-12-29 18:21:53.262 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 31.7271 ms
+2025-12-29 18:21:53.284 -06:00 [INF] Attempting login for user: freddy.machado
+2025-12-29 18:21:53.360 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2025-12-29 18:21:53.769 -06:00 [INF] Login successful for user: freddy.machado
+2025-12-29 18:21:53.777 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 497.6637 ms
+2025-12-29 18:22:14.702 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1520 ms
+2025-12-29 18:22:15.368 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 642.2232 ms
+2025-12-29 18:23:07.085 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1057 ms
+2025-12-29 18:23:07.831 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 729.5396 ms
+2025-12-29 18:23:07.993 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 159.0493 ms
+2025-12-29 18:23:08.163 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 166.6445 ms
+2025-12-29 18:23:14.608 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0974 ms
+2025-12-29 18:23:15.185 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 474.1593 ms
+2025-12-29 18:23:19.915 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.2735 ms
+2025-12-29 18:23:20.075 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 119.9084 ms
+2025-12-29 18:23:25.131 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.1742 ms
+2025-12-29 18:23:25.299 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 125.9987 ms
+2025-12-29 18:23:40.538 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0970 ms
+2025-12-29 18:23:41.181 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 623.5880 ms
+2025-12-29 18:23:46.644 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 1.0970 ms
+2025-12-29 18:23:46.792 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 130.0133 ms

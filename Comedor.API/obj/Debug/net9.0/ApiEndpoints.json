@@ -678,6 +678,42 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Comedor.API.Controllers.ReportesController",
+    "Method": "GetDespachosReport",
+    "RelativePath": "api/Reportes/despachos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaInicio",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Comedor.API.Controllers.TurnosController",
     "Method": "GetTurnos",
     "RelativePath": "api/Turnos",
