@@ -30,15 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -50,8 +46,7 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Services\\ComensalService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T23:39:18.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T23:39:18.132Z"
             },
             {
               "$type": "Document",
@@ -63,8 +58,7 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Services\\ReportesService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAD4vx4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:01:58.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:01:58.462Z"
             },
             {
               "$type": "Document",
@@ -76,7 +70,19 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Repositories\\ReportesRepository.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAArwEcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T18:49:38.382Z",
+              "WhenOpened": "2025-12-29T18:49:38.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor\\comedor-api\\Comedor.API\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\ReportesController.cs",
+              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor\\comedor-api\\Comedor.API\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "Comedor.API\\Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-28T05:01:51.882Z",
               "EditorCaption": ""
             },
             {
@@ -89,21 +95,11 @@
               "RelativeToolTip": "Comedor.Infrastructure\\Repositories\\ComensalRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T22:02:41.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T22:02:41.047Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportesController.cs",
-              "DocumentMoniker": "D:\\HEMCO\\DESARROLLO WEB\\Comedor\\comedor-api\\Comedor.API\\Controllers\\ReportesController.cs",
-              "RelativeDocumentMoniker": "Comedor.API\\Controllers\\ReportesController.cs",
-              "ToolTip": "D:\\HEMCO\\DESARROLLO WEB\\Comedor\\comedor-api\\Comedor.API\\Controllers\\ReportesController.cs",
-              "RelativeToolTip": "Comedor.API\\Controllers\\ReportesController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBcAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-28T05:01:51.882Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

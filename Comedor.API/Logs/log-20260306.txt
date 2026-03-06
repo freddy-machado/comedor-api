@@ -1,0 +1,66 @@
+2026-03-06 13:22:56.795 -06:00 [WRN] The decimal property 'Id' is part of a key on entity type 'Turno'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2026-03-06 13:22:59.133 -06:00 [INF] Starting web host
+2026-03-06 13:24:42.765 -06:00 [INF] HTTP OPTIONS /api/Account/login responded 204 in 6.5327 ms
+2026-03-06 13:24:43.264 -06:00 [INF] Attempting login for user: freddy.machado
+2026-03-06 13:24:43.496 -06:00 [INF] User 'freddy.machado' found. IsActive: True
+2026-03-06 13:24:44.570 -06:00 [INF] Login successful for user: freddy.machado
+2026-03-06 13:24:44.625 -06:00 [INF] HTTP POST /api/Account/login responded 200 in 1828.8436 ms
+2026-03-06 13:24:56.321 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.7746 ms
+2026-03-06 13:24:59.605 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 3270.0141 ms
+2026-03-06 13:24:59.641 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0705 ms
+2026-03-06 13:24:59.970 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 317.3812 ms
+2026-03-06 13:48:08.769 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0932 ms
+2026-03-06 13:48:09.149 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 357.7267 ms
+2026-03-06 13:48:09.162 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0661 ms
+2026-03-06 13:48:09.242 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 70.5613 ms
+2026-03-06 13:48:15.528 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0908 ms
+2026-03-06 13:48:15.670 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 131.3768 ms
+2026-03-06 13:48:15.686 -06:00 [INF] HTTP OPTIONS /api/Reportes/despachos responded 204 in 0.0533 ms
+2026-03-06 13:48:15.842 -06:00 [INF] HTTP GET /api/Reportes/despachos responded 200 in 150.3392 ms
+2026-03-06 13:48:25.001 -06:00 [INF] HTTP OPTIONS /api/Despachos/pendientes responded 204 in 0.1142 ms
+2026-03-06 13:48:25.435 -06:00 [INF] HTTP GET /api/Despachos/pendientes responded 200 in 421.7573 ms
+2026-03-06 13:48:25.499 -06:00 [INF] HTTP OPTIONS /dispatchHub/negotiate responded 204 in 0.0897 ms
+2026-03-06 13:48:25.512 -06:00 [INF] HTTP POST /dispatchHub/negotiate responded 200 in 4.9569 ms
+2026-03-06 13:48:28.014 -06:00 [INF] HTTP OPTIONS /api/Despachos/paginados responded 204 in 0.0756 ms
+2026-03-06 13:48:28.046 -06:00 [INF] HTTP GET /dispatchHub responded 101 in 2507.2991 ms
+2026-03-06 13:48:29.299 -06:00 [INF] HTTP GET /api/Despachos/paginados responded 200 in 1259.4173 ms
+2026-03-06 13:48:30.498 -06:00 [INF] HTTP OPTIONS /api/Comensales responded 204 in 0.2712 ms
+2026-03-06 13:48:30.533 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-03-06 13:48:30.540 -06:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2026-03-06 13:48:30.577 -06:00 [INF] HTTP GET /api/Comensales responded 200 in 69.2893 ms
+2026-03-06 13:48:32.972 -06:00 [INF] HTTP OPTIONS /api/Areas responded 204 in 0.0938 ms
+2026-03-06 13:48:33.049 -06:00 [ERR] Failed executing DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT id, area FROM vW_Areas
+2026-03-06 13:48:33.105 -06:00 [ERR] An exception occurred while iterating over the results of a query for context type 'Comedor.Infrastructure.Data.ComedorDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'bd_h2c_hemco_pro.organizacion.Areas'.
+Could not use view or function 'vW_Areas' because of binding errors.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:16d1d285-d6d5-4506-9067-9a8d3a939a30
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'bd_h2c_hemco_pro.organizacion.Areas'.
+Could not use view or function 'vW_Areas' because of binding errors.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:16d1d285-d6d5-4506-9067-9a8d3a939a30
+Error Number:208,State:1,Class:16
